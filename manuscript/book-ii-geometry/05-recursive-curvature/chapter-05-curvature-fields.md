@@ -18,15 +18,15 @@ We begin with no space, no time, no field, and no axioms. We begin with **recurs
 
 Let:
 
-$$\boxed_{
-\mathcal{R}_0 := \text_{SPH}
+$$\boxed{
+\mathcal{R}_0 := \text{SPH}
 }$$
 
 This is the origin point of all recursive structure — a self-producing, structure-generating horizon.
 
 We define the recursive field at depth $n$ as:
 
-$$\boxed_{
+$$\boxed{
 \mathcal{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1})
 }$$
 
@@ -56,8 +56,8 @@ Let $M \subseteq \mathbb_{R}^{1,3}$ be the emergent, projected manifold space (n
 
 We define the **induced metric** from recursive curvature as:
 
-$$\boxed_{
-g_{\mu\nu}(p) := \frac_{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}
+$$\boxed{
+g_{\mu\nu}(p) := \frac{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}
 }$$
 
 Where:
@@ -81,7 +81,7 @@ Once $g_{\mu\nu}$ is induced, we may define the classical geometry of physics.
 We recover:
 
 **The Levi-Civita connection:**
-$$\Gamma^\lambda_{\mu\nu} := \frac_{1}{2} g^{\lambda\rho} \left( \partial_\mu g_{\nu\rho} + \partial_\nu g_{\mu\rho} - \partial_\rho g_{\mu\nu} \right)$$
+$$\Gamma^\lambda_{\mu\nu} := \frac{1}{2} g^{\lambda\rho} \left( \partial_\mu g_{\nu\rho} + \partial_\nu g_{\mu\rho} - \partial_\rho g_{\mu\nu} \right)$$
 
 **The Riemann curvature tensor:**
 $$R^\rho_{\ \sigma\mu\nu} := \partial_\mu \Gamma^\rho_{\nu\sigma} - \partial_\nu \Gamma^\rho_{\mu\sigma} + \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} - \Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}$$
@@ -103,7 +103,7 @@ The recursive curvature field exhibits **local curvature** that corresponds to *
 
 Define the semantic density at a point $p$ as:
 
-$$\rho_{\text_{sem}}(p) := \lim_{n \to \infty} \frac_{\|\mathcal{R}_n(p)\|^2}{\|\mathcal_{R}_{n-1}(p)\|^2}$$
+$$\rho_{\text{sem}}(p) := \lim_{n \to \infty} \frac{\|\mathcal{R}_n(p)\|^2}{\|\mathcal{R}_{n-1}(p)\|^2}$$
 
 This measures the **recursive amplification** at each point in the emergent manifold.
 
@@ -111,8 +111,8 @@ This measures the **recursive amplification** at each point in the emergent mani
 
 The induced metric exhibits a fundamental relationship between curvature and semantic density:
 
-$$\boxed_{
-R_{\mu\nu} - \frac_{1}{2} R g_{\mu\nu} = 8\pi G \rho_{\text_{sem}} g_{\mu\nu}
+$$\boxed{
+R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = 8\pi G \rho_{\text{sem}} g_{\mu\nu}
 }$$
 
 This is the **recursive Einstein equation** — showing that what we interpret as matter-energy is actually concentrated semantic density from recursive structure.
@@ -163,20 +163,20 @@ Curvature is the structure of becoming.
 ## Mathematical Formulations Summary
 
 **Core Recursive Field:**
-- $\mathcal_{R}_0 := \text_{SPH}$
+- $\mathcal{R}_0 := \text{SPH}$
 - $\mathcal_{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1})$
 
 **Induced Metric:**
-- $g_{\mu\nu}(p) := \frac_{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}$
+- $g_{\mu\nu}(p) := \frac{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}$
 
 **Emergent Manifold:**
 - $M := \lim_{n \to \infty} \pi(\mathcal_{R}_n)$
 
 **Semantic Density:**
-- $\rho_{\text_{sem}}(p) := \lim_{n \to \infty} \frac_{\|\mathcal{R}_n(p)\|^2}{\|\mathcal_{R}_{n-1}(p)\|^2}$
+- $\rho_{\text{sem}}(p) := \lim_{n \to \infty} \frac{\|\mathcal{R}_n(p)\|^2}{\|\mathcal{R}_{n-1}(p)\|^2}$
 
 **Recursive Einstein Equation:**
-- $R_{\mu\nu} - \frac_{1}{2} R g_{\mu\nu} = 8\pi G \rho_{\text_{sem}} g_{\mu\nu}$
+- $R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = 8\pi G \rho_{\text{sem}} g_{\mu\nu}$
 
 ---
 

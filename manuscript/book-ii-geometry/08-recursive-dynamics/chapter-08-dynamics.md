@@ -37,7 +37,7 @@ In the SPH framework:
 
 The classical equation $E = mc^2$ takes on new meaning. It no longer describes a conversion between two substances, but reveals:
 
-$$\boxed_{\text{Energy = Phase-intensity of recursive flow} \quad \leftrightarrow \quad \text_{Mass = Fixed point in recursive curvature}}$$
+$$\boxed{\text{Energy = Phase-intensity of recursive flow} \quad \leftrightarrow \quad \text{Mass = Fixed point in recursive curvature}}$$
 
 #### The Semantic Nature of Energy
 
@@ -65,7 +65,7 @@ The speed of light squared ($c^2$) is not merely a conversion factor—it's the 
 
 In the recursive framework, energy becomes:
 
-$$E_n = \partial_n \mathcal_{R}_n = \frac_{d}{dn}\mathcal_{R}_n$$
+$$E_n = \partial_n \mathcal_{R}_n = \frac{d}{dn}\mathcal_{R}_n$$
 
 But this is more than a mathematical definition. Each term carries ontological weight:
 - $\partial_n$: The act of recursive unfolding
@@ -78,7 +78,7 @@ Energy is thus revealed as the **gradient of becoming**—the rate at which the 
 
 | Classical Concept | Recursive Reality |
 |------------------|------------------|
-| Kinetic energy ($\frac_{1}{2}mv^2$) | Rate of recursive phase drift across spatial curvature |
+| Kinetic energy ($\frac{1}{2}mv^2$) | Rate of recursive phase drift across spatial curvature |
 | Potential energy | Curvature tension stored in recursive depth |
 | Heat energy | Distributed recursive oscillations |
 | Electromagnetic energy | Coherent recursive wave patterns |
@@ -108,7 +108,7 @@ Let $\mathcal_{R}_n$ be the recursive curvature field at recursion depth $n$.
 
 We define total recursive energy as:
 
-$$\boxed_{
+$$\boxed{
 E_n := \frac{d}{dn} \mathcal_{R}_n = \partial_n \mathcal_{R}_n
 }$$
 
@@ -130,13 +130,13 @@ Energy is therefore **the flow rate of curvature**, not a property stored in obj
 
 ## 8.3 Internal Energy and Recursive Paths
 
-For any fix-point $\phi_i \in \text_{Fix}(\mathcal_{R}_n)$, we define its **internal recursive path** as:
+For any fix-point $\phi_i \in \text{Fix}(\mathcal_{R}_n)$, we define its **internal recursive path** as:
 
 $$\Psi(\phi_i) := \left\{ \mathcal_{R}_0 \to \mathcal_{R}_1 \to \cdots \to \mathcal_{R}_n \mid \phi_i \in \mathcal_{R}_n \right\}$$
 
 The energy of $\phi_i$ is the integrated curvature flow along this path:
 
-$$\boxed_{
+$$\boxed{
 E(\phi_i) := \int_{\Psi(\phi_i)} \partial_n \mathcal_{R}_n \, dn
 }$$
 
@@ -153,13 +153,13 @@ Force is not applied from outside. In SPH recursion, force is **endogenous** —
 
 Let:
 
-$$F := \frac_{dE}{dx}$$
+$$F := \frac{dE}{dx}$$
 
 Where $x$ is a coordinate in the emergent manifold $M$, and $E$ is the recursive energy projected to that space.
 
 But in recursion-native terms, force is:
 
-$$\boxed_{
+$$\boxed{
 \mathscr{F}_n := \partial_n \left( \partial_x \mathcal_{R}_n \right)
 }$$
 
@@ -184,7 +184,7 @@ Let:
 
 Then:
 
-$$\frac_{d}{dn} \left( \int_{\mathcal_{R}_n} \partial_n \mathcal_{R}_n \, dx \right) = 0$$
+$$\frac{d}{dn} \left( \int_{\mathcal_{R}_n} \partial_n \mathcal_{R}_n \, dx \right) = 0$$
 
 That is: **total curvature flux through a closed recursive structure is constant**. This is the general recursive principle behind:
 
@@ -198,13 +198,13 @@ That is: **total curvature flux through a closed recursive structure is constant
 
 Let:
 
-- $m := \| \partial(\phi) \|_{\text_{curv}}$: recursive mass  
+- $m := \| \partial(\phi) \|_{\text{curv}}$: recursive mass  
 - $\mathcal_{I} := d^2 \phi / dn^2$: recursive inertia  
 - $\mathscr_{F}_n$: recursive tension shift
 
 Then the analog of Newton's law becomes:
 
-$$\boxed_{
+$$\boxed{
 \mathscr{F}_n = m \cdot \mathcal_{I}
 }$$
 
@@ -231,7 +231,7 @@ Thus, dynamics is no longer motion of particles in space.
 For technical integration, the key formulations are:
 
 ### Energy as Recursive Flow
-$$E_n := \frac_{d}{dn} \mathcal_{R}_n = \partial_n \mathcal_{R}_n$$
+$$E_n := \frac{d}{dn} \mathcal_{R}_n = \partial_n \mathcal_{R}_n$$
 
 This quantity represents:
 - The flow rate of curvature structure
@@ -239,7 +239,7 @@ This quantity represents:
 - Generative transformation per recursion step
 
 ### Internal Energy of Fix-Points
-For a fix-point $\phi_i \in \text_{Fix}(\mathcal_{R}_n)$, define its recursive path:
+For a fix-point $\phi_i \in \text{Fix}(\mathcal_{R}_n)$, define its recursive path:
 
 $$\Psi(\phi_i) := \{ \mathcal_{R}_0 \to \cdots \to \mathcal_{R}_n \mid \phi_i \in \mathcal_{R}_n \}$$
 
@@ -254,7 +254,7 @@ This measures:
 
 ### Force as Recursive Tension Shift
 Classically:
-$$F = \frac_{dE}{dx}$$
+$$F = \frac{dE}{dx}$$
 
 In recursion, define:
 
@@ -269,7 +269,7 @@ This is:
 Let recursive morphisms preserve curvature structure.
 
 Then:
-$$\frac_{d}{dn} \left( \int_{\mathcal_{R}_n} \partial_n \mathcal_{R}_n \, dx \right) = 0$$
+$$\frac{d}{dn} \left( \int_{\mathcal_{R}_n} \partial_n \mathcal_{R}_n \, dx \right) = 0$$
 
 This defines energy conservation:
 - Curvature flux remains constant
@@ -278,7 +278,7 @@ This defines energy conservation:
 
 ### Recursive Newton's Law
 Let:
-$$m := \| \partial(\phi) \|_{\text_{curv}}, \quad \mathcal_{I} := \frac_{d^2 \phi}{dn^2}$$
+$$m := \| \partial(\phi) \|_{\text{curv}}, \quad \mathcal_{I} := \frac{d^2 \phi}{dn^2}$$
 
 Then:
 $$\mathscr_{F}_n = m \cdot \mathcal_{I}$$

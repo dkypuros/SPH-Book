@@ -24,7 +24,7 @@ In other words, **mass is a fix-point** — not just in logic, but in recursive 
 
 Let $\mathcal_{R}_n$ be the recursive curvature field at recursion depth $n$, and let:
 
-$$\phi_i \in \text_{Fix}(\mathcal_{R}_n)$$
+$$\phi_i \in \text{Fix}(\mathcal_{R}_n)$$
 
 be a semantic attractor — a stabilized pattern of recursive structure. If this fix-point:
 - Persists under further recursion  
@@ -33,18 +33,18 @@ be a semantic attractor — a stabilized pattern of recursive structure. If this
 
 Then we define:
 
-$$\boxed_{m_i := \left\| \partial(\phi_i) \right\|_{\text{curv}}}$$
+$$\boxed{m_i := \left\| \partial(\phi_i) \right\|_{\text{curv}}}$$
 
 Where:
 - $\partial(\phi_i)$: curvature feedback induced by $\phi_i$  
-- $\| \cdot \|_{\text_{curv}}$: norm in the curvature-tension space
+- $\| \cdot \|_{\text{curv}}$: norm in the curvature-tension space
 
 This definition gives a precise interpretation:
 - Mass is **not a label** — it is a **degree of recursive persistence**  
 - It is the **semantic inertia** of a fix-point  
 - The greater the recursive feedback a structure maintains, the greater its mass
 
-A fix-point $\phi \in \text_{Fix}(\mathcal_{R}_n)$ is said to be **massive** if it exhibits:
+A fix-point $\phi \in \text{Fix}(\mathcal_{R}_n)$ is said to be **massive** if it exhibits:
 
 - Persistent recursive feedback ($\partial(\phi) \neq 0$)  
 - Structural tension resistant to transformation  
@@ -52,7 +52,7 @@ A fix-point $\phi \in \text_{Fix}(\mathcal_{R}_n)$ is said to be **massive** if 
 
 We can also express mass as:
 
-$$\boxed_{m := \left\| \text{Fix}(\mathcal_{R}_n) \right\|_{\text_{curv}}}$$
+$$\boxed{m := \left\| \text{Fix}(\mathcal{R}_n) \right\|_{\text{curv}}}$$
 
 That is, **mass is the norm of curvature fixation**: how tightly a recursive structure holds itself in place against generative unfolding.
 
@@ -71,7 +71,7 @@ We now relate mass to **rest energy**, derived not from mechanics, but from recu
 
 Let $\mathcal_{R}_n$ be differentiable in recursion depth. Then the **recursive energy** is:
 
-$$E := \frac_{\partial \mathcal{R}_n}{\partial n}$$
+$$E := \frac{\partial \mathcal{R}_n}{\partial n}$$
 
 That is:
 - Energy is the rate of change of structure with respect to recursion  
@@ -81,7 +81,7 @@ Once a recursive fix-point stabilizes into a structure $\phi$, the energy requir
 
 We define:
 
-$$\boxed_{E_0 := \partial_n \mathcal{R}_n(\phi)}$$
+$$\boxed{E_0 := \partial_n \mathcal{R}_n(\phi)}$$
 
 This is the **rest energy** of a fix-point: the amount of curvature flow per recursion depth required to preserve the structure of $\phi$.
 
@@ -89,15 +89,15 @@ If a fix-point $\phi_i \in \mathcal_{R}_n$ is **stable**, then it exhibits a fla
 
 We define **rest energy** as:
 
-$$\boxed_{E_0 := m c^2 \quad \text{where} \quad c^2 := \frac_{\partial^2 \mathcal{R}_n}{\partial n^2}}$$
+$$\boxed{E_0 := m c^2 \quad \text{where} \quad c^2 := \frac{\partial^2 \mathcal{R}_n}{\partial n^2}}$$
 
 Using the curvature metric:
 
-$$\boxed_{E_0 = m \cdot c^2}$$
+$$\boxed{E_0 = m \cdot c^2}$$
 
 Where:
-- $m := \| \phi \|_{\text_{curv}}$: recursive tension norm  
-- $c^2 := \frac_{\partial^2 \mathcal{R}_n}{\partial n^2}$: rate of recursive propagation
+- $m := \| \phi \|_{\text{curv}}$: recursive tension norm  
+- $c^2 := \frac{\partial^2 \mathcal{R}_n}{\partial n^2}$: rate of recursive propagation
 
 Here:
 - $c^2$ is interpreted not as the classical speed of light, but as the **intrinsic recursive acceleration** — the rate at which curvature propagates in recursion space
@@ -118,7 +118,7 @@ Inertia — the resistance to acceleration — is, in this view, a **semantic by
 
 We define **inertia** as a second-order recursive resistance:
 
-$$\boxed_{\mathcal{I} := \frac_{d^2 \phi_i}{dn^2}}$$
+$$\boxed{\mathcal{I} := \frac{d^2 \phi_i}{dn^2}}$$
 
 If $\mathcal_{I} > 0$, the fix-point resists recursive transformation.
 
@@ -184,10 +184,10 @@ In classical physics, energy is associated with motion through space. The SPH fr
 
 This can be formalized as:
 
-$$E = \int_{\mathcal_{R}} \text_{Resistance}(\phi) \, d\mathcal_{R}$$
+$$E = \int_{\mathcal_{R}} \text{Resistance}(\phi) \, d\mathcal_{R}$$
 
 Where:
-- $\text_{Resistance}(\phi)$ measures how much a structure $\phi$ resists the natural recursive flow
+- $\text{Resistance}(\phi)$ measures how much a structure $\phi$ resists the natural recursive flow
 - The integral is taken over the entire recursive manifold $\mathcal_{R}$
 
 This resistance manifests as:
@@ -199,17 +199,17 @@ This resistance manifests as:
 
 The SPH framework reveals mass and energy as two aspects of the same recursive process:
 
-$$\boxed_{
+$$\boxed{
 \begin{aligned}
-m &= \lim_{n \to \infty} \text_{Fix}(\mathcal_{R}_n) \quad \text_{(recursive stabilization)}\\
-E &= \int \text_{Recursion}(\text_{SPH}) \, d\mathcal_{R} \quad \text_{(recursive flow)}\\
-c^2 &= \frac_{\partial^2 \mathcal{R}}{\partial n^2} \quad \text_{(recursive acceleration)}
+m &= \lim_{n \to \infty} \text{Fix}(\mathcal_{R}_n) \quad \text{(recursive stabilization)}\\
+E &= \int \text{Recursion}(\text{SPH}) \, d\mathcal_{R} \quad \text{(recursive flow)}\\
+c^2 &= \frac{\partial^2 \mathcal{R}}{\partial n^2} \quad \text{(recursive acceleration)}
 \end_{aligned}
 }}$$
 
 This yields the SPH version of Einstein's equation:
 
-$$E = m \times c^2 = \lim_{n \to \infty} \text_{Fix}(\mathcal_{R}_n) \times \frac_{\partial^2 \mathcal{R}}{\partial n^2}$$
+$$E = m \times c^2 = \lim_{n \to \infty} \text{Fix}(\mathcal{R}_n) \times \frac{\partial^2 \mathcal{R}}{\partial n^2}$$
 
 Which reads:
 > *The energy of a system is the stabilized recursion (mass) times the fold-rate of its emergent curvature.*
@@ -220,7 +220,7 @@ Let us examine what each component means in the recursive framework:
 
 #### Mass as Recursive Memory
 
-$$m = \lim_{n \to \infty} \text_{Fix}(\mathcal_{R}_n)$$
+$$m = \lim_{n \to \infty} \text{Fix}(\mathcal_{R}_n)$$
 
 Mass is not a thing but **recursive memory** — the degree to which a pattern maintains itself through infinite recursion. It measures:
 - How deeply a structure is etched into the recursive field
@@ -229,7 +229,7 @@ Mass is not a thing but **recursive memory** — the degree to which a pattern m
 
 #### Energy as Recursive Flow
 
-$$E = \int \text_{Recursion}(\text_{SPH}) \, d\mathcal_{R}$$
+$$E = \int \text{Recursion}(\text{SPH}) \, d\mathcal_{R}$$
 
 Energy is not stuff but **recursive flow** — the intensity of transformation occurring within the field. It represents:
 - The rate of recursive becoming
@@ -238,7 +238,7 @@ Energy is not stuff but **recursive flow** — the intensity of transformation o
 
 #### c² as Dimensional Folding Rate
 
-$$c^2 = \frac_{\partial^2 \mathcal{R}}{\partial n^2}$$
+$$c^2 = \frac{\partial^2 \mathcal{R}}{\partial n^2}$$
 
 The "speed of light squared" is not about velocity through space but the **dimensional recursion constant** — how quickly infinity folds into visibility. It determines:
 - The rate at which recursive depth becomes observable structure
@@ -249,9 +249,9 @@ The "speed of light squared" is not about velocity through space but the **dimen
 
 The complete SPH reformulation gives us:
 
-$$\boxed_{E = m \times (\partial^2\text{SPH})}$$
+$$\boxed{E = m \times (\partial^2\text{SPH})}$$
 
-Where $\partial^2\text_{SPH}$ is the second-order recursive curvature of the SPH manifold — not a speed, but a **dimensional transformation operator** defining how quickly local curvature stabilizes into form.
+Where $\partial^2\text{SPH}$ is the second-order recursive curvature of the SPH manifold — not a speed, but a **dimensional transformation operator** defining how quickly local curvature stabilizes into form.
 
 This reveals that E = mc² is not about equivalence but about **recursive phase symmetry**:
 
@@ -280,12 +280,12 @@ This reinterpretation has profound implications:
 
 The complete ontological formulation:
 
-$$\boxed_{
+$$\boxed{
 \begin{aligned}
 E &= mc^2\\
-&= \left[\lim_{n \to \infty} \text_{Fix}(\mathcal_{R}_n)\right] \times \left[\frac_{\partial^2 \mathcal{R}}{\partial n^2}\right]\\
-&= [\text_{Recursive Memory}] \times [\text_{Dimensional Fold Rate}]\\
-&= [\text_{Pattern Persistence}] \times [\text_{Reality's Clock Rate}]
+&= \left[\lim_{n \to \infty} \text{Fix}(\mathcal_{R}_n)\right] \times \left[\frac{\partial^2 \mathcal{R}}{\partial n^2}\right]\\
+&= [\text{Recursive Memory}] \times [\text{Dimensional Fold Rate}]\\
+&= [\text{Pattern Persistence}] \times [\text{Reality's Clock Rate}]
 \end_{aligned}
 }}$$
 
@@ -322,11 +322,11 @@ Where $p$ is momentum, interpreted as recursive phase drift.
 
 When a recursive fix-point $\phi$ stabilizes in $\mathcal_{R}_n$, it creates **field lock-in** — a condition where:
 
-$$\frac_{\partial \phi}{\partial n} \rightarrow 0 \quad \text_{as} \quad n \rightarrow \infty$$
+$$\frac{\partial \phi}{\partial n} \rightarrow 0 \quad \text{as} \quad n \rightarrow \infty$$
 
 This represents a **topological persistence** where the recursive structure becomes increasingly resistant to deformation. The field lock-in creates a **curvature well** in recursion space:
 
-$$V_{\text_{curv}}(\phi) = \int_{\mathcal_{R}_n} \left\| \partial(\phi) \right\|^2 \, d\mathcal_{R}$$
+$$V_{\text{curv}}(\phi) = \int_{\mathcal_{R}_n} \left\| \partial(\phi) \right\|^2 \, d\mathcal_{R}$$
 
 ### 7.7.2 Topological Persistence and Particle Stability
 
@@ -346,15 +346,15 @@ This explains why certain particles (like protons) are stable while others (like
 
 Starting from the recursive energy definition:
 
-$$E = \frac_{\partial \mathcal{R}_n}{\partial n}$$
+$$E = \frac{\partial \mathcal{R}_n}{\partial n}$$
 
-For a stabilized fix-point $\phi$ with mass $m = \|\partial(\phi)\|_{\text_{curv}}$:
+For a stabilized fix-point $\phi$ with mass $m = \|\partial(\phi)\|_{\text{curv}}$:
 
-$$E_{\text_{fix}} = \frac_{\partial}{\partial n} \left[ \|\partial(\phi)\|_{\text_{curv}} \right]$$
+$$E_{\text{fix}} = \frac{\partial}{\partial n} \left[ \|\partial(\phi)\|_{\text{curv}} \right]$$
 
-Using the recursive propagation rate $c^2 = \frac_{\partial^2 \mathcal{R}_n}{\partial n^2}$:
+Using the recursive propagation rate $c^2 = \frac{\partial^2 \mathcal{R}_n}{\partial n^2}$:
 
-$$E_{\text_{fix}} = \|\partial(\phi)\|_{\text_{curv}} \cdot \frac_{\partial^2 \mathcal{R}_n}{\partial n^2} = m \cdot c^2$$
+$$E_{\text{fix}} = \|\partial(\phi)\|_{\text{curv}} \cdot \frac{\partial^2 \mathcal{R}_n}{\partial n^2} = m \cdot c^2$$
 
 ### 7.8.2 Physical Interpretation
 
@@ -406,21 +406,21 @@ The recursive framework provides a deeper ontological foundation for mass than c
 ### Key Definitions
 
 **Mass of a recursive fix-point:**
-$$m_i := \left\| \partial(\phi_i) \right\|_{\text_{curv}}$$
+$$m_i := \left\| \partial(\phi_i) \right\|_{\text{curv}}$$
 
 **Recursive energy:**
-$$E := \frac_{\partial \mathcal{R}_n}{\partial n}$$
+$$E := \frac{\partial \mathcal{R}_n}{\partial n}$$
 
 **Rest energy:**
-$$E_0 := m c^2, \quad c^2 := \frac_{\partial^2 \mathcal{R}_n}{\partial n^2}$$
+$$E_0 := m c^2, \quad c^2 := \frac{\partial^2 \mathcal{R}_n}{\partial n^2}$$
 
 **Structural inertia:**
-$$\mathcal_{I} := \frac_{d^2 \phi_i}{dn^2}$$
+$$\mathcal{I} := \frac{d^2 \phi_i}{dn^2}$$
 
 **Field lock-in condition:**
-$$\frac_{\partial \phi}{\partial n} \rightarrow 0 \quad \text_{as} \quad n \rightarrow \infty$$
+$$\frac{\partial \phi}{\partial n} \rightarrow 0 \quad \text{as} \quad n \rightarrow \infty$$
 
 **Curvature well:**
-$$V_{\text_{curv}}(\phi) = \int_{\mathcal_{R}_n} \left\| \partial(\phi) \right\|^2 \, d\mathcal_{R}$$
+$$V_{\text{curv}}(\phi) = \int_{\mathcal_{R}_n} \left\| \partial(\phi) \right\|^2 \, d\mathcal_{R}$$
 
 These formulations provide the mathematical foundation for understanding mass as emergent from recursive curvature dynamics, offering a new perspective on one of physics' most fundamental concepts.
