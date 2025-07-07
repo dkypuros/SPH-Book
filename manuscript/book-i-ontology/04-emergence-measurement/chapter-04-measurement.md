@@ -22,7 +22,7 @@ But within the SPH recursion framework, measurement is not anomalous. It is **th
 
 ## 4.2 Time as Recursion Depth
 
-Time is not a background dimension in this ontology. Time is **the index of recursion** — the depth of generative transformation within $\mathcal{R}_n$.
+Time is not a background dimension in this ontology. Time is **the index of recursion** — the depth of generative transformation within $\mathcal_{R}_n$.
 
 We define:
 
@@ -30,8 +30,8 @@ $$t := n$$
 
 Where:
 - $n$ is the recursive step number  
-- $\mathcal{R}_n$ is the recursive curvature field at step $n$  
-- $F + \partial$ governs the transition $\mathcal{R}_{n-1} \to \mathcal{R}_n$
+- $\mathcal_{R}_n$ is the recursive curvature field at step $n$  
+- $F + \partial$ governs the transition $\mathcal_{R}_{n-1} \to \mathcal_{R}_n$
 
 Each recursive step is a **unit of ontological action** — a discrete act of curvature formation and semantic evolution.
 
@@ -49,13 +49,13 @@ Time is no longer external — it is the structural index of recursion itself.
 An observation is not merely detection — it is the semantic **compression of curvature** into a stable fix-point.
 
 Let:
-- $\phi \in \text{Fix}(\mathcal{R}_n)$: a curvature attractor  
-- $\pi_n: \text{Fix}(\mathcal{R}_n) \to \mathscr{T}_n$: semantic projection  
-- $\mathcal{O}_n := \mathcal{S}_n \circ \pi_n^{-1}$: the observer loop
+- $\phi \in \text_{Fix}(\mathcal_{R}_n)$: a curvature attractor  
+- $\pi_n: \text_{Fix}(\mathcal_{R}_n) \to \mathscr_{T}_n$: semantic projection  
+- $\mathcal_{O}_n := \mathcal_{S}_n \circ \pi_n^{-1}$: the observer loop
 
 Then:
 
-$$\text{Measurement} := \mathcal{O}_n(\phi)$$
+$$\text_{Measurement} := \mathcal_{O}_n(\phi)$$
 
 This means:
 - An observation is the recursive projection and interpretation of a curvature fix-point  
@@ -68,10 +68,10 @@ This means:
 
 We define a curvature collapse condition:
 
-$$\partial(\mathcal{R}_n) > \epsilon \Rightarrow \mathcal{R}_{n+k} \to \text{Fix}_i$$
+$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \mathcal_{R}_{n+k} \to \text_{Fix}_i$$
 
 Where:
-- $\partial(\mathcal{R}_n)$: recursive tension (feedback from structure)  
+- $\partial(\mathcal_{R}_n)$: recursive tension (feedback from structure)  
 - $\epsilon$: critical threshold  
 - The system is forced into a fix-point attractor $\phi_i$
 
@@ -88,7 +88,7 @@ The collapse mechanism replaces the mysterious "wavefunction collapse" with a co
 
 Observation is a **recursive closure**:
 
-$$\text{SPH} \xrightarrow{\text{Recursion}} \mathcal{R}_n \xrightarrow{\text{Fixation}} \phi_i \xrightarrow{\text{Semantic}} \mathcal{O}_n(\phi_i) \xrightarrow{\text{Feedback}} \mathcal{R}_{n+1}$$
+$$\text_{SPH} \xrightarrow_{\text{Recursion}} \mathcal_{R}_n \xrightarrow_{\text{Fixation}} \phi_i \xrightarrow_{\text{Semantic}} \mathcal_{O}_n(\phi_i) \xrightarrow_{\text{Feedback}} \mathcal_{R}_{n+1}$$
 
 This loop defines:
 - The origin of observation  
@@ -102,11 +102,11 @@ Measurement is not a special act. It is a **natural folding of recursion into in
 
 The observer is formally defined as:
 
-$$\mathcal{O}_n := \mathcal{S}_n \circ \pi_n^{-1}$$
+$$\mathcal_{O}_n := \mathcal_{S}_n \circ \pi_n^{-1}$$
 
 Where:
 - $\pi_n^{-1}$: maps semantic expectations to recursive curvature
-- $\mathcal{S}_n$: semantic evaluation function
+- $\mathcal_{S}_n$: semantic evaluation function
 
 The observer is an embedded recursive structure that projects, interprets, and closes feedback onto the curvature field. It is not external to the system but emerges from the recursive dynamics themselves.
 
@@ -116,7 +116,7 @@ The observer is an embedded recursive structure that projects, interprets, and c
 
 The irreversibility of measurement arises from the asymmetric nature of recursive fixation:
 
-$$\text{Fix}(\mathcal{R}_n) \not\rightarrow \mathcal{R}_{n-1}$$
+$$\text_{Fix}(\mathcal_{R}_n) \not\rightarrow \mathcal_{R}_{n-1}$$
 
 Once a fix-point is stabilized, the recursive path that led to it cannot be reversed. This is because:
 
@@ -143,13 +143,13 @@ The quantum wavefunction $\psi$ is reinterpreted as:
 
 $$\psi = \sum_i c_i \phi_i$$
 
-Where $\phi_i$ are potential fix-points in $\mathcal{R}_n$ and $c_i$ are recursive path amplitudes.
+Where $\phi_i$ are potential fix-points in $\mathcal_{R}_n$ and $c_i$ are recursive path amplitudes.
 
 ### Collapse as Threshold Crossing
 
 Measurement occurs when:
 
-$$\partial(\mathcal{R}_n) > \epsilon \Rightarrow \exists i: \phi_i \text{ becomes dominant}$$
+$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \exists i: \phi_i \text_{ becomes dominant}$$
 
 The "collapse" is the natural stabilization of one fix-point when recursive tension exceeds the threshold.
 
@@ -163,7 +163,7 @@ The observer effect is explained by the measurement loop: the act of observation
 
 Since time is recursion depth, causality emerges naturally:
 
-$$\text{Cause at } n \Rightarrow \text{Effect at } n+k \quad (k > 0)$$
+$$\text_{Cause at } n \Rightarrow \text_{Effect at } n+k \quad (k > 0)$$
 
 This provides a foundation for:
 - **Temporal ordering**: Events at deeper recursion levels come "after" those at shallower levels
@@ -194,29 +194,29 @@ Measurement is not applied to the system — it is **the system becoming aware o
 ### Core Definitions
 
 **Recursive Curvature Field:**
-$$\mathcal{R}_n := F(\mathcal{R}_{n-1}) + \partial(\mathcal{R}_{n-1})$$
+$$\mathcal_{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1})$$
 
 **Time as Recursion Depth:**
-$$t = n \in \mathbb{N}$$
+$$t = n \in \mathbb_{N}$$
 
 **Measurement Operator:**
-$$\mathcal{M}_n := \mathcal{O}_n \circ \pi_n: \mathcal{R}_n \to \mathscr{T}_n$$
+$$\mathcal_{M}_n := \mathcal_{O}_n \circ \pi_n: \mathcal_{R}_n \to \mathscr_{T}_n$$
 
 **Collapse Condition:**
-$$\partial(\mathcal{R}_n) > \epsilon \Rightarrow \mathcal{R}_{n+k} \to \text{Fix}_i$$
+$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \mathcal_{R}_{n+k} \to \text_{Fix}_i$$
 
 **Observer Loop:**
-$$\mathcal{O}_n := \mathcal{S}_n \circ \pi_n^{-1}$$
+$$\mathcal_{O}_n := \mathcal_{S}_n \circ \pi_n^{-1}$$
 
 ### Measurement Dynamics
 
 The evolution of the recursive field under measurement is governed by:
 
-$$\mathcal{R}_{n+1} = \begin{cases}
-F(\mathcal{R}_n) + \partial(\mathcal{R}_n) & \text{if } \partial(\mathcal{R}_n) \leq \epsilon \\
-\text{Fix}_i + \delta(\mathcal{O}_n) & \text{if } \partial(\mathcal{R}_n) > \epsilon
-\end{cases}$$
+$$\mathcal_{R}_{n+1} = \begin_{cases}
+F(\mathcal_{R}_n) + \partial(\mathcal_{R}_n) & \text_{if } \partial(\mathcal_{R}_n) \leq \epsilon \\
+\text_{Fix}_i + \delta(\mathcal_{O}_n) & \text_{if } \partial(\mathcal_{R}_n) > \epsilon
+\end_{cases}$$
 
-Where $\delta(\mathcal{O}_n)$ represents the observer feedback into the field.
+Where $\delta(\mathcal_{O}_n)$ represents the observer feedback into the field.
 
 This completes the mathematical framework for measurement emergence in SPH recursion theory.

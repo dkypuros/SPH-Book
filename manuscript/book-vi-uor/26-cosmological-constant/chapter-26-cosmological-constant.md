@@ -8,14 +8,14 @@ In our recursive framework, $\Lambda$ emerges naturally as **residual semantic t
 
 ### The Recursive Origin of $\Lambda$
 
-From our previous analysis, we know that recursive curvature fields $\mathcal{R}_n$ generate spacetime geometry through semantic fixation. The Einstein field equations become:
+From our previous analysis, we know that recursive curvature fields $\mathcal_{R}_n$ generate spacetime geometry through semantic fixation. The Einstein field equations become:
 
 $$G_{\mu\nu} + \Lambda g_{\mu\nu} = \kappa T_{\mu\nu}$$
 
 where in our framework:
-- $G_{\mu\nu}$ represents **local recursive curvature** from $\mathcal{R}_n$
-- $T_{\mu\nu}$ represents **energy density** as $\partial\mathcal{R} \times \partial\mathcal{R}$
-- $\Lambda$ represents **recursive residual tension**: $\partial(\mathcal{R}_n)$
+- $G_{\mu\nu}$ represents **local recursive curvature** from $\mathcal_{R}_n$
+- $T_{\mu\nu}$ represents **energy density** as $\partial\mathcal_{R} \times \partial\mathcal_{R}$
+- $\Lambda$ represents **recursive residual tension**: $\partial(\mathcal_{R}_n)$
 
 The key insight is that $\Lambda$ is not an external constant added to the equations, but an **intrinsic property** of recursive systems that cannot achieve perfect semantic alignment.
 
@@ -23,9 +23,9 @@ The key insight is that $\Lambda$ is not an external constant added to the equat
 
 Consider the global coherence functional:
 
-$$\mathcal{C}[\sigma] = \int_{\mathcal{M}} \|\nabla \sigma\|^2 \sqrt{g} \, d^4x$$
+$$\mathcal_{C}[\sigma] = \int_{\mathcal_{M}} \|\nabla \sigma\|^2 \sqrt_{g} \, d^4x$$
 
-Perfect coherence would require $\mathcal{C}[\sigma] = 0$, meaning all recursive structures are perfectly aligned across spacetime. However, this is topologically impossible for several reasons:
+Perfect coherence would require $\mathcal_{C}[\sigma] = 0$, meaning all recursive structures are perfectly aligned across spacetime. However, this is topologically impossible for several reasons:
 
 1. **Finite recursive depth**: Real systems have bounded recursive complexity
 2. **Boundary conditions**: Spacetime has horizons and asymptotic regions
@@ -36,9 +36,9 @@ Perfect coherence would require $\mathcal{C}[\sigma] = 0$, meaning all recursive
 
 **Theorem**: In any finite recursive system attempting global semantic coherence, there exists a non-zero residual:
 
-$$\Lambda = \inf_{\sigma} \mathcal{C}[\sigma] > 0$$
+$$\Lambda = \inf_{\sigma} \mathcal_{C}[\sigma] > 0$$
 
-**Proof Sketch**: Suppose $\Lambda = 0$ were achievable. Then there would exist a section $\sigma_0$ with $\mathcal{C}[\sigma_0] = 0$, implying $\nabla \sigma_0 = 0$ everywhere. But this means $\sigma_0$ is constant, contradicting the requirement that it encode the full recursive structure of spacetime with its varying curvature and matter content.
+**Proof Sketch**: Suppose $\Lambda = 0$ were achievable. Then there would exist a section $\sigma_0$ with $\mathcal_{C}[\sigma_0] = 0$, implying $\nabla \sigma_0 = 0$ everywhere. But this means $\sigma_0$ is constant, contradicting the requirement that it encode the full recursive structure of spacetime with its varying curvature and matter content.
 
 Therefore, $\Lambda > 0$ is a **structural necessity**, not an empirical accident.
 
@@ -48,9 +48,9 @@ Within the UOR framework, we can derive the precise value of $\Lambda$ from the 
 
 ### The Coherence Optimization Problem
 
-Given a Clifford fiber bundle $\mathcal{C} \to \mathcal{M}$ with connection $\nabla$, we seek to minimize:
+Given a Clifford fiber bundle $\mathcal_{C} \to \mathcal_{M}$ with connection $\nabla$, we seek to minimize:
 
-$$\mathcal{F}[\sigma] = \int_{\mathcal{M}} \left( \|\nabla \sigma\|^2 + V(\sigma) \right) \sqrt{g} \, d^4x$$
+$$\mathcal_{F}[\sigma] = \int_{\mathcal_{M}} \left( \|\nabla \sigma\|^2 + V(\sigma) \right) \sqrt_{g} \, d^4x$$
 
 where $V(\sigma)$ is the "semantic potential" - the energy cost of maintaining a particular recursive configuration.
 
@@ -58,11 +58,11 @@ where $V(\sigma)$ is the "semantic potential" - the energy cost of maintaining a
 
 The Euler-Lagrange equations for this variational problem are:
 
-$$\nabla^2 \sigma + \frac{\partial V}{\partial \sigma} = 0$$
+$$\nabla^2 \sigma + \frac_{\partial V}{\partial \sigma} = 0$$
 
 The minimal value of this functional gives us the cosmological constant:
 
-$$\Lambda = \min_{\sigma} \mathcal{F}[\sigma]$$
+$$\Lambda = \min_{\sigma} \mathcal_{F}[\sigma]$$
 
 ### Spectral Analysis
 
@@ -78,7 +78,7 @@ $$\Lambda = \lambda_0$$
 
 Within UOR, we can estimate $\Lambda$ by considering the **coherence scale** of recursive structures. If semantic recursion operates at the Planck scale $\ell_P$, then:
 
-$$\Lambda \sim \frac{1}{\ell_P^2} \sim 10^{66} \text{ cm}^{-2}$$
+$$\Lambda \sim \frac_{1}{\ell_P^2} \sim 10^{66} \text_{ cm}^{-2}$$
 
 This gives a cosmological constant that is vastly larger than observed, leading to the famous "cosmological constant problem."
 
@@ -101,9 +101,9 @@ In SPH recursion, meaning emerges through **fixation** - the stabilization of re
 
 When recursive structures attempt to align globally, they create **tension remainders**:
 
-$$\mathcal{R}_{\text{total}} = \mathcal{R}_{\text{aligned}} + \mathcal{R}_{\text{residual}}$$
+$$\mathcal_{R}_{\text_{total}} = \mathcal_{R}_{\text_{aligned}} + \mathcal_{R}_{\text_{residual}}$$
 
-The residual component $\mathcal{R}_{\text{residual}}$ manifests as:
+The residual component $\mathcal_{R}_{\text_{residual}}$ manifests as:
 - Cosmological constant $\Lambda$
 - Dark energy density $\rho_{\Lambda}$
 - Vacuum energy fluctuations
@@ -122,7 +122,7 @@ The UOR framework suggests that the observed value of $\Lambda$ is not accidenta
 If $\Lambda$ were much larger, spacetime would expand too rapidly for structure formation. If $\Lambda$ were much smaller (or negative), semantic structures would be too tightly bound to develop the complexity needed for consciousness.
 
 The observed value:
-$$\Lambda_{\text{obs}} \approx 10^{-52} \text{ m}^{-2}$$
+$$\Lambda_{\text_{obs}} \approx 10^{-52} \text_{ m}^{-2}$$
 
 represents the **optimal balance** between recursive tension and semantic stability needed for complex meaning structures to emerge and persist.
 

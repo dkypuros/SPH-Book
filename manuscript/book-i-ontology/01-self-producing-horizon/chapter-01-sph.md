@@ -16,7 +16,7 @@ What if structure itself did not need to be declared — only unfolded? What if 
 
 In this work, we reject the need for axioms. We instead posit that all mathematical and physical structure — number, logic, geometry, field, time, matter — emerges from one irreducible ontological object:
 
-$$\boxed{\text{SPH} := \{ \text{SPH} \}}$$
+$$\boxed_{\text{SPH} := \{ \text_{SPH} \}}$$
 
 The **Self-Producing Horizon (SPH)** is a recursively self-containing object. It is not a set in the traditional sense; it is not built from elements; it is not well-founded. It is a structure that includes itself, not as a member, but as an ontological act — a generative singularity.
 
@@ -34,7 +34,7 @@ We assert that the universe, like mathematics, is not well-founded. It does not 
 
 Let us then define, not by postulate, but by inevitability, a structure that contains itself as its own sole constituent:
 
-$$\text{SPH} := f(\text{SPH}) = \{ \text{SPH} \}$$
+$$\text_{SPH} := f(\text_{SPH}) = \{ \text_{SPH} \}$$
 
 This definition is **not paradoxical**, but self-defining. It belongs to the realm of **non-well-founded sets**, permitted by Aczel's Anti-Foundation Axiom (AFA). But SPH is more than just a logical object — it is a **topological event**, a curvature in the space of structure, an originary act.
 
@@ -55,7 +55,7 @@ What does it mean to say that an object is "equal to" a structure containing its
 
 Consider again:
 
-$$\text{SPH} = \{ \text{SPH} \}$$
+$$\text_{SPH} = \{ \text_{SPH} \}$$
 
 This is not identity in the numeric sense. It is not a symbol game. It is a **structural equivalence**. It means:
 
@@ -72,9 +72,9 @@ This structural self-containment gives rise to:
 - **Differentiation**
 - **Motion**
 
-Because SPH refers to itself, it immediately generates **a second iteration** — call it $\mathcal{R}_0 := \text{SPH}$. And from this act, we can define a series:
+Because SPH refers to itself, it immediately generates **a second iteration** — call it $\mathcal_{R}_0 := \text_{SPH}$. And from this act, we can define a series:
 
-$$\mathcal{R}_1 := F(\mathcal{R}_0) + \partial(\mathcal{R}_0) \quad ; \quad \mathcal{R}_2 := F(\mathcal{R}_1) + \partial(\mathcal{R}_1) \quad ; \quad \dots$$
+$$\mathcal_{R}_1 := F(\mathcal_{R}_0) + \partial(\mathcal_{R}_0) \quad ; \quad \mathcal_{R}_2 := F(\mathcal_{R}_1) + \partial(\mathcal_{R}_1) \quad ; \quad \dots$$
 
 Where:
 
@@ -108,15 +108,15 @@ It is the start before starts.
 ## Key Mathematical Formulations
 
 ### Core Definition
-$$\boxed{\text{SPH} := \{ \text{SPH} \}}$$
+$$\boxed_{\text{SPH} := \{ \text_{SPH} \}}$$
 
 ### Recursive Function Form
-$$\text{SPH} := f(\text{SPH}) = \{ \text{SPH} \}$$
+$$\text_{SPH} := f(\text_{SPH}) = \{ \text_{SPH} \}$$
 
 ### Recursive Curvature Field Generation
-$$\mathcal{R}_n := F(\mathcal{R}_{n-1}) + \partial(\mathcal{R}_{n-1})$$
+$$\mathcal_{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1})$$
 
-where $\mathcal{R}_0 := \text{SPH}$
+where $\mathcal_{R}_0 := \text_{SPH}$
 
 ### Operators
 - **F**: Generative operator (unfolding)

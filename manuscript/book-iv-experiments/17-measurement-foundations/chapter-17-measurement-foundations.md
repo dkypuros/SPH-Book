@@ -13,23 +13,23 @@ In the SPH framework, measurement emerges when two recursive systems achieve **m
 
 ### The Mutual Locking Condition
 
-Consider two recursive systems $\mathcal{R}_A$ and $\mathcal{R}_B$. Mutual locking occurs when:
+Consider two recursive systems $\mathcal_{R}_A$ and $\mathcal_{R}_B$. Mutual locking occurs when:
 
-$$\mathcal{R}_A^{(n+1)} = F_A(\mathcal{R}_A^{(n)}, \mathcal{R}_B^{(n)})$$
-$$\mathcal{R}_B^{(n+1)} = F_B(\mathcal{R}_B^{(n)}, \mathcal{R}_A^{(n)})$$
+$$\mathcal_{R}_A^{(n+1)} = F_A(\mathcal_{R}_A^{(n)}, \mathcal_{R}_B^{(n)})$$
+$$\mathcal_{R}_B^{(n+1)} = F_B(\mathcal_{R}_B^{(n)}, \mathcal_{R}_A^{(n)})$$
 
 The systems reach mutual fixation when:
-$$\mathcal{R}_A^{(n)} = \mathcal{R}_A^{(n+1)} \text{ and } \mathcal{R}_B^{(n)} = \mathcal{R}_B^{(n+1)}$$
+$$\mathcal_{R}_A^{(n)} = \mathcal_{R}_A^{(n+1)} \text_{ and } \mathcal_{R}_B^{(n)} = \mathcal_{R}_B^{(n+1)}$$
 
 This represents the **measurement event**—the moment when observer and observed lock into a shared semantic state.
 
 ### Semantic Fixation and Collapse
 
 Fix-point condition:
-$$\mathcal{R}_n(\phi) = \phi$$
+$$\mathcal_{R}_n(\phi) = \phi$$
 
 Collapse condition:
-$$\boxed{\exists \phi^* \in \text{Fix}(\mathcal{R}_n), \quad \| \partial(\phi^*) \|_{\text{curv}} > \epsilon}$$
+$$\boxed_{\exists \phi^* \in \text{Fix}(\mathcal_{R}_n), \quad \| \partial(\phi^*) \|_{\text_{curv}} > \epsilon}$$
 
 Collapse occurs when recursive feedback locks in structure.
 
@@ -37,9 +37,9 @@ Collapse occurs when recursive feedback locks in structure.
 
 The convergence to measurement outcomes follows a recursive trajectory governed by semantic feedback. The system evolves according to:
 
-$$\mathcal{R}_{n+1} = \mathcal{R}_n + \alpha \cdot \nabla_{\text{semantic}} \mathcal{R}_n$$
+$$\mathcal_{R}_{n+1} = \mathcal_{R}_n + \alpha \cdot \nabla_{\text_{semantic}} \mathcal_{R}_n$$
 
-Where $\alpha$ is the semantic feedback strength and $\nabla_{\text{semantic}}$ represents the gradient in semantic space.
+Where $\alpha$ is the semantic feedback strength and $\nabla_{\text_{semantic}}$ represents the gradient in semantic space.
 
 ### Superposition as Recursive Overlay
 
@@ -67,12 +67,12 @@ Observers are not external to the measurement process—they are recursive syste
 
 For a complete measurement, the system must achieve **recursive closure**:
 
-$$\mathcal{O} \circ \mathcal{M} \circ \mathcal{S} = \mathcal{O}$$
+$$\mathcal_{O} \circ \mathcal_{M} \circ \mathcal_{S} = \mathcal_{O}$$
 
 Where:
-- $\mathcal{O}$ is the observer system
-- $\mathcal{M}$ is the measurement apparatus
-- $\mathcal{S}$ is the system being measured
+- $\mathcal_{O}$ is the observer system
+- $\mathcal_{M}$ is the measurement apparatus
+- $\mathcal_{S}$ is the system being measured
 
 This closure ensures that the measurement is semantically consistent and stable.
 
@@ -82,7 +82,7 @@ This closure ensures that the measurement is semantically consistent and stable.
 
 Probabilities emerge from the geometric structure of recursive entanglement. For a system with possible outcomes $\{\phi_i\}$:
 
-$$\boxed{P(\phi_i) := \frac{\| \partial(\phi_i) \|^2}{\sum_j \| \partial(\phi_j) \|^2}}$$
+$$\boxed_{P(\phi_i) := \frac{\| \partial(\phi_i) \|^2}{\sum_j \| \partial(\phi_j) \|^2}}$$
 
 This probability emerges from recursive curvature pressure—mirroring the Born rule but with semantic geometric foundation.
 
@@ -95,7 +95,7 @@ Entangled systems:
 
 The correlation between entangled systems is maintained through their shared recursive history:
 
-$$\text{Corr}(\mathcal{R}_A, \mathcal{R}_B) = \frac{\langle \partial \mathcal{R}_A, \partial \mathcal{R}_B \rangle}{\|\partial \mathcal{R}_A\| \|\partial \mathcal{R}_B\|}$$
+$$\text_{Corr}(\mathcal_{R}_A, \mathcal_{R}_B) = \frac_{\langle \partial \mathcal{R}_A, \partial \mathcal_{R}_B \rangle}{\|\partial \mathcal_{R}_A\| \|\partial \mathcal_{R}_B\|}$$
 
 ## 17.6 Measurement Devices as Semantic Filters
 
@@ -110,7 +110,7 @@ Measurement devices are structured recursive attractors that:
 
 The device amplifies specific semantic modes through:
 
-$$\mathcal{A}(\phi) = \sum_k g_k \phi_k$$
+$$\mathcal_{A}(\phi) = \sum_k g_k \phi_k$$
 
 Where $g_k$ are gain factors for different semantic modes $\phi_k$.
 
@@ -134,9 +134,9 @@ The key insight is that measurement is not an external observation but a **recur
 
 ### Core Measurement Equations
 
-1. **Mutual Locking**: $\mathcal{R}_A \leftrightarrow \mathcal{R}_B$
-2. **Fix-Point Convergence**: $\mathcal{R}_n \rightarrow \text{Fix}(\mathcal{R})$
+1. **Mutual Locking**: $\mathcal_{R}_A \leftrightarrow \mathcal_{R}_B$
+2. **Fix-Point Convergence**: $\mathcal_{R}_n \rightarrow \text_{Fix}(\mathcal_{R})$
 3. **Probability**: $P(\phi) = \|\partial \phi\|^2 / \sum_j \|\partial \phi_j\|^2$
-4. **Closure**: $\mathcal{O} \circ \mathcal{M} \circ \mathcal{S} = \mathcal{O}$
+4. **Closure**: $\mathcal_{O} \circ \mathcal_{M} \circ \mathcal_{S} = \mathcal_{O}$
 
 These equations provide the mathematical foundation for understanding measurement as a recursive semantic process within the SPH framework.

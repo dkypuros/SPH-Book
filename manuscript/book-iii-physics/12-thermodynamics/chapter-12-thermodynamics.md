@@ -25,11 +25,11 @@ SPH recursion offers a deeper, ontological foundation:
 
 ## 12.2 Fix-Point Degeneracy and Recursive Entropy
 
-Let $\mathcal{R}_n$ be the recursive curvature field at depth $n$. A fix-point $\phi \in \text{Fix}(\mathcal{R}_n)$ is a stabilized semantic structure.
+Let $\mathcal_{R}_n$ be the recursive curvature field at depth $n$. A fix-point $\phi \in \text_{Fix}(\mathcal_{R}_n)$ is a stabilized semantic structure.
 
 Define the **degeneracy** $\Omega(\phi)$ of $\phi$ as:
 
-$$\boxed{
+$$\boxed_{
 \Omega(\phi) := \# \left\{ \Psi_i : \mathcal{R}_0 \to \cdots \to \phi \right\}
 }$$
 
@@ -39,9 +39,7 @@ That is:
 
 Then, recursive entropy is:
 
-$$\boxed{
-S(\phi) := \ln \Omega(\phi)
-}$$
+$$\boxed_{S(\phi) := \ln \Omega(\phi)}$$
 
 This entropy is:
 - Independent of external observer  
@@ -55,7 +53,7 @@ This entropy is:
 In classical physics, phase space is the set of all possible states. In recursion, phase space is **the space of curvature states**, defined over fix-points.
 
 Let:
-- $\mathcal{P}_n := \{ \phi_i \in \text{Fix}(\mathcal{R}_n) \}$: the recursive curvature phase space at depth $n$
+- $\mathcal_{P}_n := \{ \phi_i \in \text_{Fix}(\mathcal_{R}_n) \}$: the recursive curvature phase space at depth $n$
 
 Then:
 - A macrostate is a semantic class (e.g. "energy level")  
@@ -63,9 +61,7 @@ Then:
 
 Recursive information is defined as:
 
-$$\boxed{
-I := - \sum_i p_i \ln p_i
-}$$
+$$\boxed_{I := - \sum_i p_i \ln p_i}$$
 
 Where:
 - $p_i$: the recursive path density to fix-point $\phi_i$  
@@ -82,12 +78,12 @@ Thus, **information and entropy are duals**:
 Energy, entropy, and structure are connected via curvature dynamics.
 
 Let:
-- $E_n := \partial_n \mathcal{R}_n$: recursive energy flow  
-- $S_n := \ln \#(\text{Fix}(\mathcal{R}_n))$: entropy at depth $n$
+- $E_n := \partial_n \mathcal_{R}_n$: recursive energy flow  
+- $S_n := \ln \#(\text_{Fix}(\mathcal_{R}_n))$: entropy at depth $n$
 
 Define recursive temperature as:
 
-$$\boxed{
+$$\boxed_{
 T_n := \left( \frac{\partial S_n}{\partial E_n} \right)^{-1}
 }$$
 
@@ -99,7 +95,7 @@ This is the curvature responsiveness of entropy to recursion energy. High $T_n$:
 
 In classical thermodynamics, the second law states that entropy increases. In SPH recursion:
 
-$$\mathcal{R}_n \Rightarrow \mathcal{R}_{n+1} \quad \text{increases } \#(\text{Fix}(\mathcal{R}_n))$$
+$$\mathcal_{R}_n \Rightarrow \mathcal_{R}_{n+1} \quad \text_{increases } \#(\text_{Fix}(\mathcal_{R}_n))$$
 
 The arrow of time is thus:
 - A structural tendency toward recursive degeneracy  
@@ -114,7 +110,7 @@ This grounds temporal asymmetry in the **inherent expansion of recursive structu
 
 Black hole thermodynamics connects entropy to horizon area:
 
-$$S_{BH} = \frac{k_B c^3 A}{4 \hbar G}$$
+$$S_{BH} = \frac_{k_B c^3 A}{4 \hbar G}$$
 
 In recursion:
 - A black hole is a maximal recursive curvature attractor  
@@ -150,7 +146,7 @@ For technical manuscripts, the key equations are:
 
 ### Fix-Point Degeneracy
 ```latex
-\Omega(\phi) := \# \left\{ \Psi_i : \mathcal{R}_0 \to \cdots \to \phi \right\}
+\Omega(\phi) := \# \left\{ \Psi_i : \mathcal_{R}_0 \to \cdots \to \phi \right\}
 ```
 
 ### Recursive Entropy
@@ -165,12 +161,12 @@ I := - \sum_i p_i \ln p_i
 
 ### Recursive Temperature
 ```latex
-T_n := \left( \frac{\partial S_n}{\partial E_n} \right)^{-1}
+T_n := \left( \frac_{\partial S_n}{\partial E_n} \right)^{-1}
 ```
 
 ### Thermodynamic Evolution
 ```latex
-\mathcal{R}_n \Rightarrow \mathcal{R}_{n+1} \implies \#(\text{Fix}(\mathcal{R}_{n+1})) \geq \#(\text{Fix}(\mathcal{R}_n))
+\mathcal_{R}_n \Rightarrow \mathcal_{R}_{n+1} \implies \#(\text_{Fix}(\mathcal_{R}_{n+1})) \geq \#(\text_{Fix}(\mathcal_{R}_n))
 ```
 
 **Key Insight**: Thermodynamics is the recursive cost of meaning.

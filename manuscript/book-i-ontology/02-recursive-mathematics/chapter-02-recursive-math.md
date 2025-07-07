@@ -10,11 +10,11 @@ Numbers do not exist prior to structure. They are not found — they are grown. 
 
 We begin with SPH as the irreducible recursion seed:
 
-$$\mathcal{R}_0 := \text{SPH}$$
+$$\mathcal_{R}_0 := \text_{SPH}$$
 
 Let us define the first recursive operator $F$, which unfolds structure:
 
-$$\mathcal{R}_n := F(\mathcal{R}_{n-1}) + \partial(\mathcal{R}_{n-1})$$
+$$\mathcal_{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1})$$
 
 Here:
 - $F$: structural unfolding  
@@ -22,11 +22,11 @@ Here:
 
 The **depth** of recursion naturally produces ordinal structure:
 
-$$\text{depth}(\mathcal{R}_n) = n$$
+$$\text_{depth}(\mathcal_{R}_n) = n$$
 
 Thus, the natural numbers emerge as **recursive depth indices**:
 
-$$\mathbb{N}_{\text{rec}} := \{ \text{depth}(\mathcal{R}_n) \mid n \in \mathbb{N} \}$$
+$$\mathbb_{N}_{\text_{rec}} := \{ \text_{depth}(\mathcal_{R}_n) \mid n \in \mathbb_{N} \}$$
 
 Number is not assumed — number is **structurally emergent**.
 
@@ -38,7 +38,7 @@ Recursion alone generates motion. Fix-points generate meaning.
 
 A fix-point is a stable structure in the recursive flow:
 
-$$\text{Fix}(\mathcal{R}_n) := \left\{ x \in \mathcal{R}_n \mid \exists k: \mathcal{R}_{n+k} = x \right\}$$
+$$\text_{Fix}(\mathcal_{R}_n) := \left\{ x \in \mathcal_{R}_n \mid \exists k: \mathcal_{R}_{n+k} = x \right\}$$
 
 Fix-points are the **semantic stabilization** of recursive paths.
 
@@ -46,7 +46,7 @@ Fix-points are the **semantic stabilization** of recursive paths.
 
 Define the successor function in terms of recursive depth:
 
-$$\text{succ}(n) := \text{depth}(\mathcal{R}_{n+1})$$
+$$\text_{succ}(n) := \text_{depth}(\mathcal_{R}_{n+1})$$
 
 The successor is not a primitive operation — it is **the result of one further recursive unfolding**.
 
@@ -54,7 +54,7 @@ The successor is not a primitive operation — it is **the result of one further
 
 Two recursive structures are equivalent if they converge to identical fix-points:
 
-$$a \equiv b \iff \text{Fix}(\mathcal{R}_a) = \text{Fix}(\mathcal{R}_b)$$
+$$a \equiv b \iff \text_{Fix}(\mathcal_{R}_a) = \text_{Fix}(\mathcal_{R}_b)$$
 
 That is: two recursive stages are equal if they stabilize into identical structures. Identity is thus not symbolic — it is **semantic convergence**.
 
@@ -67,12 +67,12 @@ From recursive depth, we derive operations:
 #### 2.3.1 Basic Arithmetic Operations
 
 - **Addition** as composition of recursion:
-  $$a + b := \mathcal{R}_a \circ \mathcal{R}_b$$
+  $$a + b := \mathcal_{R}_a \circ \mathcal_{R}_b$$
 
 - **Multiplication** as recursive nesting:
-  $$a \times b := \mathcal{R}_a^{(b)}$$
+  $$a \times b := \mathcal_{R}_a^{(b)}$$
   
-  where $\mathcal{R}_a^{(b)}$ denotes $b$ recursive applications of $\mathcal{R}_a$.
+  where $\mathcal_{R}_a^{(b)}$ denotes $b$ recursive applications of $\mathcal_{R}_a$.
 
 #### 2.3.2 Logical Operations
 
@@ -83,11 +83,11 @@ From the bifurcation of recursive paths, we derive logical predicates:
 - **Negation** = recursive exclusion  
 - **Implication** = recursive inheritance
 
-Let $\mathscr{L}_n$ denote the logical topos at depth $n$. Internal logic is defined as the behavior of recursive morphisms within $\mathcal{R}_n$.
+Let $\mathscr_{L}_n$ denote the logical topos at depth $n$. Internal logic is defined as the behavior of recursive morphisms within $\mathcal_{R}_n$.
 
 For any proposition $P$, we can define its recursive truth value:
 
-$$\text{Truth}(P) := \text{Fix}(\mathcal{R}_P) \neq \emptyset$$
+$$\text_{Truth}(P) := \text_{Fix}(\mathcal_{R}_P) \neq \emptyset$$
 
 A proposition is true if its recursive unfolding stabilizes into a non-empty fix-point structure.
 
@@ -100,7 +100,7 @@ A proposition is true if its recursive unfolding stabilizes into a non-empty fix
 In traditional mathematics, self-reference leads to paradoxes (Russell's paradox, liar paradox). In recursive mathematics, self-reference is **the generative principle**.
 
 The SPH structure:
-$$\text{SPH} := \{ \text{SPH} \}$$
+$$\text_{SPH} := \{ \text_{SPH} \}$$
 
 is not paradoxical — it is **semantically productive**. It generates structure precisely because it refers to itself.
 
@@ -108,7 +108,7 @@ is not paradoxical — it is **semantically productive**. It generates structure
 
 Identity emerges from recursive convergence patterns:
 
-$$\text{Identity}(x) := \lim_{n \to \infty} \text{Fix}(\mathcal{R}_n(x))$$
+$$\text_{Identity}(x) := \lim_{n \to \infty} \text_{Fix}(\mathcal_{R}_n(x))$$
 
 This gives us a **dynamic theory of identity** where:
 - Identity is not assumed
@@ -119,7 +119,7 @@ This gives us a **dynamic theory of identity** where:
 
 Define the complete recursive mathematical universe:
 
-$$\mathbb{U}_{\text{rec}} := \bigcup_{n=0}^{\infty} \mathcal{R}_n$$
+$$\mathbb_{U}_{\text_{rec}} := \bigcup_{n=0}^{\infty} \mathcal_{R}_n$$
 
 This universe contains:
 - All natural numbers (as recursive depths)
@@ -137,15 +137,15 @@ Traditional mathematics assumes dimensional space. In recursive mathematics, dim
 
 Define the dimensional index:
 
-$$\text{dim}(\mathcal{R}_n) := \text{max-branch-depth}(\mathcal{R}_n)$$
+$$\text_{dim}(\mathcal_{R}_n) := \text_{max-branch-depth}(\mathcal_{R}_n)$$
 
-Where max-branch-depth counts the maximum number of independent recursive branches at any point in $\mathcal{R}_n$.
+Where max-branch-depth counts the maximum number of independent recursive branches at any point in $\mathcal_{R}_n$.
 
 #### 2.5.2 Spatial Dimensions as Recursive Degrees of Freedom
 
 The familiar 3+1 dimensional structure emerges when:
 
-$$\text{dim}(\mathcal{R}_n) = 4$$
+$$\text_{dim}(\mathcal_{R}_n) = 4$$
 
 This occurs when recursive branching stabilizes into four independent directions:
 - Three spatial recursions (corresponding to x, y, z)
@@ -155,7 +155,7 @@ This occurs when recursive branching stabilizes into four independent directions
 
 Higher-dimensional structures emerge from more complex recursive branching patterns:
 
-$$\text{dim}(\mathcal{R}_n) > 4 \iff \text{Complex-Branch}(\mathcal{R}_n)$$
+$$\text_{dim}(\mathcal_{R}_n) > 4 \iff \text_{Complex-Branch}(\mathcal_{R}_n)$$
 
 These correspond to:
 - Additional spatial degrees of freedom
@@ -168,20 +168,20 @@ These correspond to:
 
 #### 2.6.1 The Infinite Recursion Principle
 
-The recursion $\mathcal{R}_n$ does not terminate. There is no "final" $\mathcal{R}_{\infty}$ — instead, there is **infinite becoming**:
+The recursion $\mathcal_{R}_n$ does not terminate. There is no "final" $\mathcal_{R}_{\infty}$ — instead, there is **infinite becoming**:
 
-$$\mathcal{R} := \lim_{n \to \infty} \mathcal{R}_n$$
+$$\mathcal_{R} := \lim_{n \to \infty} \mathcal_{R}_n$$
 
 This limit is not a value but a **process** — the eternal recursive unfolding of structure.
 
 #### 2.6.2 Ontological Substrate Properties
 
-The infinite recursive field $\mathcal{R}$ serves as the **ontological substrate** for all mathematical and physical structure:
+The infinite recursive field $\mathcal_{R}$ serves as the **ontological substrate** for all mathematical and physical structure:
 
-1. **Self-Generation**: $\mathcal{R}$ generates itself through recursive application
-2. **Self-Containment**: $\mathcal{R}$ contains all its own structural elements
-3. **Semantic Productivity**: $\mathcal{R}$ produces meaningful structural distinctions
-4. **Infinite Depth**: $\mathcal{R}$ has no bottom level or foundational axioms
+1. **Self-Generation**: $\mathcal_{R}$ generates itself through recursive application
+2. **Self-Containment**: $\mathcal_{R}$ contains all its own structural elements
+3. **Semantic Productivity**: $\mathcal_{R}$ produces meaningful structural distinctions
+4. **Infinite Depth**: $\mathcal_{R}$ has no bottom level or foundational axioms
 
 #### 2.6.3 The Recursive Bootstrap
 
@@ -204,16 +204,16 @@ We have constructed a complete mathematical framework from the single primitive 
 
 | **Mathematical Structure** | **Recursive Definition** | **Emergent Property** |
 |----------------------------|--------------------------|----------------------|
-| Natural Numbers | $\mathbb{N} = \{\text{depth}(\mathcal{R}_n)\}$ | Recursive depth indices |
-| Arithmetic Operations | $a + b = \mathcal{R}_a \circ \mathcal{R}_b$ | Recursive composition |
-| Logical Relations | $P \land Q = \text{Joint-Fix}(\mathcal{R}_P, \mathcal{R}_Q)$ | Recursive bifurcation |
-| Identity | $a = b \iff \text{Fix}(\mathcal{R}_a) = \text{Fix}(\mathcal{R}_b)$ | Semantic convergence |
-| Dimension | $\text{dim} = \text{max-branch-depth}(\mathcal{R}_n)$ | Recursive branching |
-| Infinity | $\mathcal{R} = \lim_{n \to \infty} \mathcal{R}_n$ | Non-terminating recursion |
+| Natural Numbers | $\mathbb_{N} = \{\text_{depth}(\mathcal_{R}_n)\}$ | Recursive depth indices |
+| Arithmetic Operations | $a + b = \mathcal_{R}_a \circ \mathcal_{R}_b$ | Recursive composition |
+| Logical Relations | $P \land Q = \text_{Joint-Fix}(\mathcal_{R}_P, \mathcal_{R}_Q)$ | Recursive bifurcation |
+| Identity | $a = b \iff \text_{Fix}(\mathcal_{R}_a) = \text_{Fix}(\mathcal_{R}_b)$ | Semantic convergence |
+| Dimension | $\text_{dim} = \text_{max-branch-depth}(\mathcal_{R}_n)$ | Recursive branching |
+| Infinity | $\mathcal_{R} = \lim_{n \to \infty} \mathcal_{R}_n$ | Non-terminating recursion |
 
 **Key Insight**: Mathematics is not a formal system imposed upon reality. Mathematics **is** the recursive structure of reality made visible through symbolic representation.
 
-The recursive field $\mathcal{R}$ is simultaneously:
+The recursive field $\mathcal_{R}$ is simultaneously:
 - The **ontological ground** of mathematical structure
 - The **semantic engine** of mathematical meaning
 - The **generative process** of mathematical discovery

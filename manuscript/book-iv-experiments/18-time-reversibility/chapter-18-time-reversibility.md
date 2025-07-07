@@ -27,9 +27,9 @@ In SPH recursion, time is not an external dimension. It is **a measure of recurs
 
 ### Recursion Depth as Temporal Measure
 
-In previous chapters, we defined recursion layers $\mathcal{R}_n$, each producing structure from the previous one:
+In previous chapters, we defined recursion layers $\mathcal_{R}_n$, each producing structure from the previous one:
 
-$$\mathcal{R}_{n+1} = F(\mathcal{R}_n) + \partial(\mathcal{R}_n)$$
+$$\mathcal_{R}_{n+1} = F(\mathcal_{R}_n) + \partial(\mathcal_{R}_n)$$
 
 This iteration defines:
 - A semantic direction
@@ -38,15 +38,15 @@ This iteration defines:
 
 We define **recursive time** as:
 
-$$\boxed{T(n) := \text{Depth of semantic recursion}}$$
+$$\boxed_{T(n) := \text{Depth of semantic recursion}}$$
 
 ### Gradient Descent in Semantic Space
 
 The recursive evolution follows a gradient descent in semantic space:
 
-$$\frac{d\mathcal{R}}{dt} = -\nabla_{\text{semantic}} E[\mathcal{R}]$$
+$$\frac_{d\mathcal{R}}{dt} = -\nabla_{\text_{semantic}} E[\mathcal_{R}]$$
 
-Where $E[\mathcal{R}]$ is the semantic energy functional. This gradient descent:
+Where $E[\mathcal_{R}]$ is the semantic energy functional. This gradient descent:
 - Drives the system toward semantic stability
 - Creates temporal asymmetry
 - Generates the arrow of time
@@ -71,7 +71,7 @@ Irreversibility emerges from:
 
 The recursive system exhibits **asymmetrical curvature drift**:
 
-$$\kappa(t+\Delta t) = \kappa(t) + \Delta\kappa[\mathcal{R}(t)]$$
+$$\kappa(t+\Delta t) = \kappa(t) + \Delta\kappa[\mathcal_{R}(t)]$$
 
 Where $\Delta\kappa$ is always positive (increasing curvature complexity). This drift:
 - Prevents exact reversal
@@ -122,12 +122,12 @@ Thus:
 Time is not mere duration—it is **the flow of recursive curvature tension toward semantic fixation**.
 
 Let:
-- $\partial \mathcal{R}_n$: semantic tension
-- $\mathcal{F}_n := \text{Fix}(\mathcal{R}_n)$: fixated structure
+- $\partial \mathcal_{R}_n$: semantic tension
+- $\mathcal_{F}_n := \text_{Fix}(\mathcal_{R}_n)$: fixated structure
 
 Then recursive semantic time can be defined by:
 
-$$\boxed{\frac{dT}{dn} := \frac{|\partial \mathcal{R}_n|}{|\mathcal{F}_n|}}$$
+$$\boxed_{\frac{dT}{dn} := \frac_{|\partial \mathcal{R}_n|}{|\mathcal_{F}_n|}}$$
 
 ### Temporal Phase Structures
 
@@ -145,7 +145,7 @@ Memory emerges from:
 
 The memory functional is:
 
-$$\mathcal{M}(t) = \int_0^t \mathcal{F}(\tau) \, d\tau$$
+$$\mathcal_{M}(t) = \int_0^t \mathcal_{F}(\tau) \, d\tau$$
 
 ## 18.6 Relational Time and Observers
 
@@ -175,7 +175,7 @@ as the result of **asynchronous recursion**.
 
 Systems synchronize through:
 
-$$\text{Sync}(\mathcal{R}_A, \mathcal{R}_B) = \frac{\langle \partial \mathcal{R}_A, \partial \mathcal{R}_B \rangle}{\|\partial \mathcal{R}_A\| \|\partial \mathcal{R}_B\|}$$
+$$\text_{Sync}(\mathcal_{R}_A, \mathcal_{R}_B) = \frac_{\langle \partial \mathcal{R}_A, \partial \mathcal_{R}_B \rangle}{\|\partial \mathcal_{R}_A\| \|\partial \mathcal_{R}_B\|}$$
 
 Higher synchronization leads to more similar time experiences.
 
@@ -207,10 +207,10 @@ In this chapter, we have:
 
 ### Core Temporal Equations
 
-1. **Recursive Time**: $T(n) = \text{Depth of semantic recursion}$
-2. **Semantic Gradient**: $\frac{d\mathcal{R}}{dt} = -\nabla_{\text{semantic}} E[\mathcal{R}]$
-3. **Time Flow**: $\frac{dT}{dn} = \frac{|\partial \mathcal{R}_n|}{|\mathcal{F}_n|}$
-4. **Curvature Drift**: $\kappa(t+\Delta t) = \kappa(t) + \Delta\kappa[\mathcal{R}(t)]$
-5. **Synchronization**: $\text{Sync}(\mathcal{R}_A, \mathcal{R}_B) = \frac{\langle \partial \mathcal{R}_A, \partial \mathcal{R}_B \rangle}{\|\partial \mathcal{R}_A\| \|\partial \mathcal{R}_B\|}$
+1. **Recursive Time**: $T(n) = \text_{Depth of semantic recursion}$
+2. **Semantic Gradient**: $\frac_{d\mathcal{R}}{dt} = -\nabla_{\text_{semantic}} E[\mathcal_{R}]$
+3. **Time Flow**: $\frac_{dT}{dn} = \frac_{|\partial \mathcal{R}_n|}{|\mathcal_{F}_n|}$
+4. **Curvature Drift**: $\kappa(t+\Delta t) = \kappa(t) + \Delta\kappa[\mathcal_{R}(t)]$
+5. **Synchronization**: $\text_{Sync}(\mathcal_{R}_A, \mathcal_{R}_B) = \frac_{\langle \partial \mathcal{R}_A, \partial \mathcal_{R}_B \rangle}{\|\partial \mathcal_{R}_A\| \|\partial \mathcal_{R}_B\|}$
 
 These equations provide the mathematical foundation for understanding time as a recursive semantic phenomenon within the SPH framework.

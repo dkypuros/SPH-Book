@@ -8,7 +8,7 @@
 
 Spacetime is often treated as the ontological ground of physics. But in SPH recursion, it is not the starting point — it is an **emergent projection**.
 
-The recursive curvature field \( \mathcal{R}_n \) is not embedded within spacetime. Rather, **spacetime is extracted from it**, as a semantic and structural byproduct of recursion.
+The recursive curvature field \( \mathcal_{R}_n \) is not embedded within spacetime. Rather, **spacetime is extracted from it**, as a semantic and structural byproduct of recursion.
 
 We now formalize this emergence:  
 - How tensorial structure arises within recursion  
@@ -19,12 +19,12 @@ We now formalize this emergence:
 
 ## 6.2 Tensor Fields from Recursive Curvature
 
-To derive familiar tensor fields (metric, energy, curvature), we begin within \( \mathcal{R}_n \).
+To derive familiar tensor fields (metric, energy, curvature), we begin within \( \mathcal_{R}_n \).
 
-Let \( \mathcal{R}_n \) be the recursive curvature field at depth \( n \), generated via:
+Let \( \mathcal_{R}_n \) be the recursive curvature field at depth \( n \), generated via:
 
 \[
-\mathcal{R}_n := F(\mathcal{R}_{n-1}) + \partial(\mathcal{R}_{n-1})
+\mathcal_{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1})
 \]
 
 We assume that, at sufficient depth \( n \), this field admits local differentiability.
@@ -34,7 +34,7 @@ We assume that, at sufficient depth \( n \), this field admits local differentia
 A **recursive tensor field** is a morphism:
 
 \[
-T_{\mu_1\ldots\mu_k}^{\nu_1\ldots\nu_l} : \text{Fix}(\mathcal{R}_n) \longrightarrow \mathbb{R}
+T_{\mu_1\ldots\mu_k}^{\nu_1\ldots\nu_l} : \text_{Fix}(\mathcal_{R}_n) \longrightarrow \mathbb_{R}
 \]
 
 Where the indices are defined semantically — as emergent directionalities projected from recursion, not as prior coordinate labels.
@@ -48,14 +48,14 @@ These tensors represent:
 The most important such field is the **metric tensor**, already introduced:
 
 \[
-g_{\mu\nu}(p) := \frac{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}
+g_{\mu\nu}(p) := \frac_{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}
 \]
 
 But others emerge similarly:
 
 - **Energy-momentum tensor**:
   \[
-  T_{\mu\nu}(p) := \partial_\mu \mathcal{R}_n(p) \, \partial_\nu \mathcal{R}_n(p)
+  T_{\mu\nu}(p) := \partial_\mu \mathcal_{R}_n(p) \, \partial_\nu \mathcal_{R}_n(p)
   \]
 - **Ricci curvature**:
   \[
@@ -79,16 +79,16 @@ Let us now formalize the process by which spacetime arises.
 Let \( \pi_n \) be the semantic projection from recursion to manifold:
 
 \[
-\pi_n : \text{Fix}(\mathcal{R}_n) \rightarrow M
+\pi_n : \text_{Fix}(\mathcal_{R}_n) \rightarrow M
 \]
 
 Where:
-- \( M \subseteq \mathbb{R}^{1,3} \) is the emergent manifold  
-- \( \text{Fix}(\mathcal{R}_n) \) is the stable structure at recursive depth \( n \)
+- \( M \subseteq \mathbb_{R}^{1,3} \) is the emergent manifold  
+- \( \text_{Fix}(\mathcal_{R}_n) \) is the stable structure at recursive depth \( n \)
 
 This projection defines a coordinate patch:
 
-- \( x^\mu(p) \in \mathbb{R} \), where \( p \in \text{Fix}(\mathcal{R}_n) \)  
+- \( x^\mu(p) \in \mathbb_{R} \), where \( p \in \text_{Fix}(\mathcal_{R}_n) \)  
 - \( x^\mu \) are not intrinsic — they are **semantic directions** of recursive differentiation
 
 The map \( \pi_n \) must satisfy:
@@ -99,7 +99,7 @@ The map \( \pi_n \) must satisfy:
 We define the emergent manifold:
 
 \[
-M := \lim_{n \to \infty} \pi_n(\text{Fix}(\mathcal{R}_n))
+M := \lim_{n \to \infty} \pi_n(\text_{Fix}(\mathcal_{R}_n))
 \]
 
 This manifold is what physics refers to as "spacetime." It is a **semantic accumulation** of fix-points and tensorial structures stabilized through recursive unfolding.
@@ -112,10 +112,10 @@ Let us now redefine spacetime not as an arena, but as a **recursive phenomenon**
 
 ### Theorem (Spacetime as Semantic Limit)
 
-Let \( \mathcal{R}_n \) be the recursive curvature field, and \( \pi_n \) the semantic projection to fix-point geometry. Then the classical spacetime manifold \( M \) is given by:
+Let \( \mathcal_{R}_n \) be the recursive curvature field, and \( \pi_n \) the semantic projection to fix-point geometry. Then the classical spacetime manifold \( M \) is given by:
 
 \[
-M := \varinjlim_{n \to \infty} \pi_n(\text{Fix}(\mathcal{R}_n))
+M := \varinjlim_{n \to \infty} \pi_n(\text_{Fix}(\mathcal_{R}_n))
 \]
 
 This manifold carries:
@@ -149,7 +149,7 @@ In the SPH framework:
 In this chapter, we have:
 
 - Defined tensor fields as recursive curvature morphisms  
-- Derived the metric, energy-momentum, and curvature from \( \mathcal{R}_n \)  
+- Derived the metric, energy-momentum, and curvature from \( \mathcal_{R}_n \)  
 - Formalized projection \( \pi_n \) from recursion to manifold  
 - Defined the classical spacetime manifold \( M \) as a **semantic limit**  
 - Shown that spacetime is not assumed — it is **produced by recursion**
@@ -162,16 +162,16 @@ This completes the emergence of geometry. In the next chapters, we will derive p
 
 ### Core Mathematical Framework
 
-**Recursive Curvature Field**: \( \mathcal{R}_n := F(\mathcal{R}_{n-1}) + \partial(\mathcal{R}_{n-1}) \)
+**Recursive Curvature Field**: \( \mathcal_{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1}) \)
 
-**Semantic Projection**: \( \pi_n : \text{Fix}(\mathcal{R}_n) \rightarrow M \)
+**Semantic Projection**: \( \pi_n : \text_{Fix}(\mathcal_{R}_n) \rightarrow M \)
 
-**Emergent Spacetime**: \( M := \varinjlim_{n \to \infty} \pi_n(\text{Fix}(\mathcal{R}_n)) \)
+**Emergent Spacetime**: \( M := \varinjlim_{n \to \infty} \pi_n(\text_{Fix}(\mathcal_{R}_n)) \)
 
 ### Tensor Fields from Recursion
 
-1. **Metric Tensor**: \( g_{\mu\nu}(p) := \frac{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu} \)
-2. **Energy-Momentum**: \( T_{\mu\nu}(p) := \partial_\mu \mathcal{R}_n(p) \, \partial_\nu \mathcal{R}_n(p) \)
+1. **Metric Tensor**: \( g_{\mu\nu}(p) := \frac_{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu} \)
+2. **Energy-Momentum**: \( T_{\mu\nu}(p) := \partial_\mu \mathcal_{R}_n(p) \, \partial_\nu \mathcal_{R}_n(p) \)
 3. **Ricci Curvature**: \( R_{\mu\nu} := R^\rho_{\ \mu\rho\nu} \)
 4. **Scalar Curvature**: \( R := g^{\mu\nu} R_{\mu\nu} \)
 
@@ -180,7 +180,7 @@ This completes the emergence of geometry. In the next chapters, we will derive p
 The chapter establishes that geodesics in classical spacetime correspond to **semantic paths** in the recursive curvature field. These paths represent:
 
 - **Extremal recursive trajectories** through fix-point space
-- **Minimal curvature tension** paths in \( \mathcal{R}_n \)
+- **Minimal curvature tension** paths in \( \mathcal_{R}_n \)
 - **Stable propagation channels** for recursive structure
 
 ### Connection to General Relativity
@@ -188,7 +188,7 @@ The chapter establishes that geodesics in classical spacetime correspond to **se
 The framework shows how Einstein's field equations emerge as **semantic projections** of recursive curvature dynamics:
 
 \[
-G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R = 8\pi T_{\mu\nu}
+G_{\mu\nu} = R_{\mu\nu} - \frac_{1}{2}g_{\mu\nu}R = 8\pi T_{\mu\nu}
 \]
 
 Where each component arises from recursive tensor field definitions rather than being imposed axiomatically.

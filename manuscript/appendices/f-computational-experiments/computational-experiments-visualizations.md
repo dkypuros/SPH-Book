@@ -145,7 +145,7 @@ class QuantumRecursiveSystem:
         current = 'SPH'
         for step in range(depth):
             # Random recursive transformation
-            next_state = f"{current}_R{np.random.randint(0, 4)}"
+            next_state = f"{current}_R_{np.random.randint(0, 4)}"
             path.append(next_state)
             current = next_state
         

@@ -40,7 +40,7 @@ The famous "which-path" dilemma resolves naturally in SPH recursion:
 
 The interference pattern emerges from **recursive semantic interference**:
 
-$$I(\mathbf{r}) = \left| \Phi_1(\mathbf{r}) + \Phi_2(\mathbf{r}) \right|^2$$
+$$I(\mathbf_{r}) = \left| \Phi_1(\mathbf_{r}) + \Phi_2(\mathbf_{r}) \right|^2$$
 
 Where:
 - $\Phi_1, \Phi_2$: recursive curvature flows from each slit
@@ -51,7 +51,7 @@ Where:
 
 Phase relationships in SPH recursion represent **semantic coherence**:
 
-$$\phi_{12} = \arg\left( \frac{\Phi_1}{\Phi_2} \right)$$
+$$\phi_{12} = \arg\left( \frac_{\Phi_1}{\Phi_2} \right)$$
 
 - **Constructive interference** = recursive semantic reinforcement
 - **Destructive interference** = recursive semantic cancellation
@@ -61,11 +61,11 @@ $$\phi_{12} = \arg\left( \frac{\Phi_1}{\Phi_2} \right)$$
 
 Wavefunction collapse represents **recursive fix-point selection**:
 
-$$|\psi\rangle \xrightarrow{\text{measurement}} |\psi_{\text{fixed}}\rangle$$
+$$|\psi\rangle \xrightarrow_{\text{measurement}} |\psi_{\text_{fixed}}\rangle$$
 
 In SPH recursion:
 
-$$\sum_i \alpha_i \Phi_i \xrightarrow{\text{fixation}} \Phi_j$$
+$$\sum_i \alpha_i \Phi_i \xrightarrow_{\text{fixation}} \Phi_j$$
 
 Where:
 - Collapse = **recursive semantic stabilization**

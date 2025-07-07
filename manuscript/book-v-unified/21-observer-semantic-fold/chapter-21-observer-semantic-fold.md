@@ -258,7 +258,7 @@ Different levels of consciousness correspond to different recursive depths:
 Consciousness depth can be measured by:
 
 ```
-D(𝒪) = max{n : 𝒪 ∈ ℛₙ(𝒪)}
+D(𝒪) = max_{n : 𝒪 ∈ ℛₙ(𝒪)}
 ```
 
 Where:

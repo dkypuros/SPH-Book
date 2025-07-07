@@ -29,7 +29,7 @@ In SPH recursion, neutrinos represent **pure phase structures** in recursive cur
 
 Define recursive phase:
 
-$$\theta_i(n) := \arg\left( \frac{\Phi_i^{(n+1)}}{\Phi_i^{(n)}} \right)$$
+$$\theta_i(n) := \arg\left( \frac_{\Phi_i^{(n+1)}}{\Phi_i^{(n)}} \right)$$
 
 Oscillation probability:
 
@@ -55,7 +55,7 @@ The phenomenon of neutrino oscillation represents **semantic interference** betw
 
 When a neutrino is measured, the recursive phase structure **collapses** into a specific semantic identity:
 
-$$|\nu_{\text{measured}}\rangle = \sum_i |\langle \nu_i | \text{detector} \rangle|^2 |\nu_i\rangle$$
+$$|\nu_{\text_{measured}}\rangle = \sum_i |\langle \nu_i | \text_{detector} \rangle|^2 |\nu_i\rangle$$
 
 This represents the **recursive fixation** of semantic identity through measurement interaction.
 
@@ -67,7 +67,7 @@ In recursion:
 
 The **CP-violating phase** $\delta_{CP}$ in the neutrino mixing matrix represents:
 
-$$\delta_{CP} \sim \arg\left( \frac{\mathcal{R}_{\text{matter}}}{\mathcal{R}_{\text{antimatter}}} \right)$$
+$$\delta_{CP} \sim \arg\left( \frac_{\mathcal{R}_{\text_{matter}}}{\mathcal_{R}_{\text_{antimatter}}} \right)$$
 
 ## 14.6 Mass Hierarchy as Recursive Basin Depth
 
@@ -76,7 +76,7 @@ $$\delta_{CP} \sim \arg\left( \frac{\mathcal{R}_{\text{matter}}}{\mathcal{R}_{\t
 
 The **mass-squared differences** $\Delta m^2_{ij}$ correspond to:
 
-$$\Delta m^2_{ij} \sim \left\| \nabla^2 \mathcal{R}_i - \nabla^2 \mathcal{R}_j \right\|_{\text{curv}}$$
+$$\Delta m^2_{ij} \sim \left\| \nabla^2 \mathcal_{R}_i - \nabla^2 \mathcal_{R}_j \right\|_{\text_{curv}}$$
 
 Where the curvature gradients measure recursive basin depth.
 
