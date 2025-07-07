@@ -38,13 +38,13 @@ This iteration defines:
 
 We define **recursive time** as:
 
-$$\boxed_{T(n) := \text{Depth of semantic recursion}}$$
+$$\boxed{T(n) := \text{Depth of semantic recursion}}$$
 
 ### Gradient Descent in Semantic Space
 
 The recursive evolution follows a gradient descent in semantic space:
 
-$$\frac_{d\mathcal{R}}{dt} = -\nabla_{\text_{semantic}} E[\mathcal_{R}]$$
+$$\frac{d\mathcal{R}}{dt} = -\nabla_{\text{semantic}} E[\mathcal{R}]$$
 
 Where $E[\mathcal_{R}]$ is the semantic energy functional. This gradient descent:
 - Drives the system toward semantic stability
@@ -123,11 +123,11 @@ Time is not mere duration—it is **the flow of recursive curvature tension towa
 
 Let:
 - $\partial \mathcal_{R}_n$: semantic tension
-- $\mathcal_{F}_n := \text_{Fix}(\mathcal_{R}_n)$: fixated structure
+- $\mathcal_{F}_n := \text{Fix}(\mathcal_{R}_n)$: fixated structure
 
 Then recursive semantic time can be defined by:
 
-$$\boxed_{\frac{dT}{dn} := \frac_{|\partial \mathcal{R}_n|}{|\mathcal_{F}_n|}}$$
+$$\boxed{\frac{dT}{dn} := \frac{|\partial \mathcal{R}_n|}{|\mathcal{F}_n|}}$$
 
 ### Temporal Phase Structures
 
@@ -175,7 +175,7 @@ as the result of **asynchronous recursion**.
 
 Systems synchronize through:
 
-$$\text_{Sync}(\mathcal_{R}_A, \mathcal_{R}_B) = \frac_{\langle \partial \mathcal{R}_A, \partial \mathcal_{R}_B \rangle}{\|\partial \mathcal_{R}_A\| \|\partial \mathcal_{R}_B\|}$$
+$$\text{Sync}(\mathcal{R}_A, \mathcal{R}_B) = \frac{\langle \partial \mathcal{R}_A, \partial \mathcal{R}_B \rangle}{\|\partial \mathcal{R}_A\| \|\partial \mathcal{R}_B\|}$$
 
 Higher synchronization leads to more similar time experiences.
 
@@ -207,10 +207,10 @@ In this chapter, we have:
 
 ### Core Temporal Equations
 
-1. **Recursive Time**: $T(n) = \text_{Depth of semantic recursion}$
-2. **Semantic Gradient**: $\frac_{d\mathcal{R}}{dt} = -\nabla_{\text_{semantic}} E[\mathcal_{R}]$
-3. **Time Flow**: $\frac_{dT}{dn} = \frac_{|\partial \mathcal{R}_n|}{|\mathcal_{F}_n|}$
+1. **Recursive Time**: $T(n) = \text{Depth of semantic recursion}$
+2. **Semantic Gradient**: $\frac{d\mathcal{R}}{dt} = -\nabla_{\text{semantic}} E[\mathcal_{R}]$
+3. **Time Flow**: $\frac{dT}{dn} = \frac{|\partial \mathcal{R}_n|}{|\mathcal_{F}_n|}$
 4. **Curvature Drift**: $\kappa(t+\Delta t) = \kappa(t) + \Delta\kappa[\mathcal_{R}(t)]$
-5. **Synchronization**: $\text_{Sync}(\mathcal_{R}_A, \mathcal_{R}_B) = \frac_{\langle \partial \mathcal{R}_A, \partial \mathcal_{R}_B \rangle}{\|\partial \mathcal_{R}_A\| \|\partial \mathcal_{R}_B\|}$
+5. **Synchronization**: $\text{Sync}(\mathcal_{R}_A, \mathcal_{R}_B) = \frac{\langle \partial \mathcal{R}_A, \partial \mathcal_{R}_B \rangle}{\|\partial \mathcal_{R}_A\| \|\partial \mathcal_{R}_B\|}$
 
 These equations provide the mathematical foundation for understanding time as a recursive semantic phenomenon within the SPH framework.

@@ -8,7 +8,7 @@ Goldbach's conjecture - that every even integer greater than 2 can be expressed 
 
 In our base-1 framework, even numbers have a special **recursive symmetry**. An even number $2n$ can be understood as:
 
-$$2n = \pi_1 \circ \pi_1 \circ \ldots \circ \pi_1 \text_{ (n times)}$$
+$$2n = \pi_1 \circ \pi_1 \circ \ldots \circ \pi_1 \text{ (n times)}$$
 
 This represents a **symmetric doubling** of recursive structure. The key insight is that this symmetry requires **dual decomposition** - the even number must be expressible as the sum of two **conjugate recursive structures**.
 
@@ -18,7 +18,7 @@ Consider the **prime space** $\mathcal_{P}$ as a subset of the base-1 manifold. 
 
 The Clifford algebra structure on the base-1 manifold induces a **natural pairing** between primes:
 
-$$\langle p_1, p_2 \rangle_{\mathcal_{C}} = \text_{Tr}(p_1 \cdot p_2^{\dagger})$$
+$$\langle p_1, p_2 \rangle_{\mathcal_{C}} = \text{Tr}(p_1 \cdot p_2^{\dagger})$$
 
 where $p_2^{\dagger}$ is the **recursive conjugate** of $p_2$.
 
@@ -26,7 +26,7 @@ where $p_2^{\dagger}$ is the **recursive conjugate** of $p_2$.
 
 Define the **Goldbach operator** $\mathcal_{G}$ acting on even numbers:
 
-$$\mathcal_{G}(2n) = \{(p, q) : p + q = 2n, \text_{ both } p, q \text_{ prime}\}$$
+$$\mathcal_{G}(2n) = \{(p, q) : p + q = 2n, \text{ both } p, q \text{ prime}\}$$
 
 In the UOR framework, this operator has a natural **spectral decomposition**:
 
@@ -56,7 +56,7 @@ The Chinese Remainder Theorem (CRT) provides powerful constraints on the distrib
 
 In base-1 arithmetic, the Chinese Remainder Theorem takes the form:
 
-$$\pi_1^{[n]} \equiv \bigoplus_{p \text_{ prime}} \pi_1^{[n]}_p$$
+$$\pi_1^{[n]} \equiv \bigoplus_{p \text{ prime}} \pi_1^{[n]}_p$$
 
 where $\pi_1^{[n]}_p$ represents the **p-adic component** of the n-th recursive level of $\pi_1$.
 
@@ -66,7 +66,7 @@ This decomposition shows that **recursive emanation** respects the **modular str
 
 For a Goldbach decomposition $2n = p + q$ to exist, we need **phase alignment** between the recursive emanations of $p$ and $q$:
 
-$$\text_{Phase}(\pi_1^{[p]}) + \text_{Phase}(\pi_1^{[q]}) \equiv 0 \pmod_{2\pi}$$
+$$\text{Phase}(\pi_1^{[p]}) + \text{Phase}(\pi_1^{[q]}) \equiv 0 \pmod_{2\pi}$$
 
 The CRT ensures that such phase alignments always exist by providing **constructive decompositions** of the phase space.
 
@@ -130,13 +130,13 @@ The continuity arises from the **smooth structure** of the base-1 manifold and t
 
 Define the **Goldbach measure** $\mu_G(n)$ as the number of prime pairs summing to $2n$:
 
-$$\mu_G(n) = |\{(p, q) : p + q = 2n, p, q \text_{ prime}\}|$$
+$$\mu_G(n) = |\{(p, q) : p + q = 2n, p, q \text{ prime}\}|$$
 
 The recursive continuity principle implies that $\mu_G(n) > 0$ for all $n > 1$.
 
 Moreover, we can estimate $\mu_G(n)$ using **recursive spectral density**:
 
-$$\mu_G(n) \sim \frac_{C n}{\ln^2 n}$$
+$$\mu_G(n) \sim \frac{C n}{\ln^2 n}$$
 
 where $C$ is a constant depending on the **geometric structure** of the base-1 manifold.
 
@@ -158,9 +158,9 @@ Remarkably, the UOR framework reveals a deep connection between Goldbach's conje
 
 **Proof Sketch**: The RH implies that the **error term** in the prime number theorem is small enough to guarantee that the **prime density** around $n$ is sufficient for Goldbach decompositions to exist.
 
-Specifically, if $\pi(x) = \text_{Li}(x) + O(x^{1/2} \ln x)$, then the **probability** that both $p$ and $2n - p$ are prime is:
+Specifically, if $\pi(x) = \text{Li}(x) + O(x^{1/2} \ln x)$, then the **probability** that both $p$ and $2n - p$ are prime is:
 
-$$P(\text_{Goldbach}) \sim \frac_{1}{\ln^2 n} \cdot \text_{(correction terms)}$$
+$$P(\text{Goldbach}) \sim \frac{1}{\ln^2 n} \cdot \text{(correction terms)}$$
 
 The RH ensures that the correction terms are small enough to keep this probability positive.
 

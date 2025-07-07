@@ -58,7 +58,7 @@ where $V(\sigma)$ is the "semantic potential" - the energy cost of maintaining a
 
 The Euler-Lagrange equations for this variational problem are:
 
-$$\nabla^2 \sigma + \frac_{\partial V}{\partial \sigma} = 0$$
+$$\nabla^2 \sigma + \frac{\partial V}{\partial \sigma} = 0$$
 
 The minimal value of this functional gives us the cosmological constant:
 
@@ -78,7 +78,7 @@ $$\Lambda = \lambda_0$$
 
 Within UOR, we can estimate $\Lambda$ by considering the **coherence scale** of recursive structures. If semantic recursion operates at the Planck scale $\ell_P$, then:
 
-$$\Lambda \sim \frac_{1}{\ell_P^2} \sim 10^{66} \text_{ cm}^{-2}$$
+$$\Lambda \sim \frac{1}{\ell_P^2} \sim 10^{66} \text{ cm}^{-2}$$
 
 This gives a cosmological constant that is vastly larger than observed, leading to the famous "cosmological constant problem."
 
@@ -101,9 +101,9 @@ In SPH recursion, meaning emerges through **fixation** - the stabilization of re
 
 When recursive structures attempt to align globally, they create **tension remainders**:
 
-$$\mathcal_{R}_{\text_{total}} = \mathcal_{R}_{\text_{aligned}} + \mathcal_{R}_{\text_{residual}}$$
+$$\mathcal_{R}_{\text{total}} = \mathcal_{R}_{\text{aligned}} + \mathcal_{R}_{\text{residual}}$$
 
-The residual component $\mathcal_{R}_{\text_{residual}}$ manifests as:
+The residual component $\mathcal_{R}_{\text{residual}}$ manifests as:
 - Cosmological constant $\Lambda$
 - Dark energy density $\rho_{\Lambda}$
 - Vacuum energy fluctuations
@@ -122,7 +122,7 @@ The UOR framework suggests that the observed value of $\Lambda$ is not accidenta
 If $\Lambda$ were much larger, spacetime would expand too rapidly for structure formation. If $\Lambda$ were much smaller (or negative), semantic structures would be too tightly bound to develop the complexity needed for consciousness.
 
 The observed value:
-$$\Lambda_{\text_{obs}} \approx 10^{-52} \text_{ m}^{-2}$$
+$$\Lambda_{\text{obs}} \approx 10^{-52} \text{ m}^{-2}$$
 
 represents the **optimal balance** between recursive tension and semantic stability needed for complex meaning structures to emerge and persist.
 

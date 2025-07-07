@@ -56,7 +56,7 @@ The squared term $c^2$ that appears in Einstein's famous equation takes on new s
 
 **SPH view**: $c^2$ is the **recursive curvature coefficient** — the rate at which recursive acceleration produces structural curvature:
 
-$$\boxed_{c^2 = \frac{\partial^2 \mathcal{R}}{\partial t^2} \text_{ (fold rate of curvature)}}$$
+$$\boxed{c^2 = \frac{\partial^2 \mathcal{R}}{\partial t^2} \text{ (fold rate of curvature)}}$$
 
 This represents:
 - The intrinsic recursive acceleration of the manifold
@@ -91,7 +91,7 @@ This reframing extends to all fundamental constants:
 
 These are not arbitrary parameters but **semantic fixed points** — ratios that stabilize as recursion deepens:
 
-$$\boxed_{\text{Physical constant} = \lim_{n \to \infty} \frac_{\text{Recursive structure A}_n}{\text_{Recursive structure B}_n}}$$
+$$\boxed{\text{Physical constant} = \lim_{n \to \infty} \frac{\text{Recursive structure A}_n}{\text{Recursive structure B}_n}}$$
 
 ### **Speed of Light as Recursion Propagation Rate**
 
@@ -108,7 +108,7 @@ Thus $c$ is not imposed as a limit — it emerges as the natural propagation rat
 
 In the SPH framework:
 
-$$\boxed_{c := \sqrt{\frac{\|\mathcal{R}_{n+1} - \mathcal_{R}_n\|^2}{\|\partial_n \mathcal_{R}_n\|^2}}}$$
+$$\boxed{c := \sqrt{\frac{\|\mathcal{R}_{n+1} - \mathcal_{R}_n\|^2}{\|\partial_n \mathcal_{R}_n\|^2}}}$$
 
 This defines $c$ as the ratio of:
 - Recursive state change per iteration (numerator)
@@ -116,11 +116,11 @@ This defines $c$ as the ratio of:
 
 Leading to the recursive interpretation:
 
-$$\boxed_{E = m \times c^2 \rightarrow E = \lim_{n \to \infty} \text_{Fix}(\mathcal_{R}_n) \times \frac_{\partial^2 \mathcal{R}}{\partial n^2}}$$
+$$\boxed{E = m \times c^2 \rightarrow E = \lim_{n \to \infty} \text{Fix}(\mathcal_{R}_n) \times \frac{\partial^2 \mathcal{R}}{\partial n^2}}$$
 
 Where:
-- $\text_{Fix}(\mathcal_{R}_n)$ = Recursive fixed point (mass as stable attractor)
-- $\frac_{\partial^2 \mathcal{R}}{\partial n^2}$ = Recursive acceleration (curvature coefficient)
+- $\text{Fix}(\mathcal_{R}_n)$ = Recursive fixed point (mass as stable attractor)
+- $\frac{\partial^2 \mathcal{R}}{\partial n^2}$ = Recursive acceleration (curvature coefficient)
 
 ### **Summary: From External Limit to Internal Structure**
 
@@ -153,7 +153,7 @@ Let:
 - $X_n, Y_n$ be recursive structural magnitudes at depth $n$  
 - Then a recursive invariant is:
 
-$$\boxed_{\lim_{n \to \infty} \frac_{X_n}{Y_n} = \text_{constant}}$$
+$$\boxed{\lim_{n \to \infty} \frac{X_n}{Y_n} = \text{constant}}$$
 
 These limits are not numerical by fiat — they are **semantic ratios** that persist as recursion continues to self-similar scales.
 
@@ -171,7 +171,7 @@ These arise from **dimensional consistency of recursive flow**, not from hand-tu
 
 The classical speed of light $c$ emerges naturally as:
 
-$$\boxed_{c^2 := \frac{\partial^2 \mathcal{R}_n}{\partial n^2}}$$
+$$\boxed{c^2 := \frac{\partial^2 \mathcal{R}_n}{\partial n^2}}$$
 
 This measures:
 - The recursive "acceleration" of curvature  
@@ -190,7 +190,7 @@ Let:
 
 Then define:
 
-$$\boxed_{\hbar := \min \left\{ \Delta \theta_k(n) \mid \phi_k \text{ maintains coherence across recursion} \right\}}$$
+$$\boxed{\hbar := \min \left\{ \Delta \theta_k(n) \mid \phi_k \text{ maintains coherence across recursion} \right\}}$$
 
 Planck's constant measures:
 - The **quantum of recursive phase drift**  
@@ -207,11 +207,11 @@ $$G_{\mu\nu} = \kappa T_{\mu\nu}$$
 
 In recursion:
 
-$$\boxed_{\kappa := \lim_{n \to \infty} \frac_{\text{Recursive curvature response}}{\text_{Recursive energy flow}}}$$
+$$\boxed{\kappa := \lim_{n \to \infty} \frac{\text{Recursive curvature response}}{\text{Recursive energy flow}}}$$
 
 Thus:
 
-$$\boxed_{G = \frac{c^4}{8\pi \kappa}}$$
+$$\boxed{G = \frac{c^4}{8\pi \kappa}}$$
 
 Here, $G$ is not a fundamental constant — it is the **ratio of recursive curvature to feedback energy**. Its value is set by the **internal elasticity of recursion**.
 
@@ -219,11 +219,11 @@ Here, $G$ is not a fundamental constant — it is the **ratio of recursive curva
 
 ## **11.6 Fine-Structure Constant and Recursive Ratios**
 
-The fine-structure constant $\alpha \approx \frac_{1}{137}$ controls the strength of electromagnetic interaction.
+The fine-structure constant $\alpha \approx \frac{1}{137}$ controls the strength of electromagnetic interaction.
 
 In recursion, it emerges from:
 
-$$\boxed_{\alpha := \frac{\text{Recursive charge curvature}}{\text_{Recursive angular momentum scale}}}$$
+$$\boxed{\alpha := \frac{\text{Recursive charge curvature}}{\text{Recursive angular momentum scale}}}$$
 
 That is, $\alpha$ is the **ratio of feedback per mode overlap** — a structural balance between recursive phase alignment and curvature deformation.
 
@@ -233,7 +233,7 @@ That is, $\alpha$ is the **ratio of feedback per mode overlap** — a structural
 
 Each constant is a **semantic limit**, of the form:
 
-$$\lim_{n \to \infty} \mathcal_{F}_n = \text_{Constant}$$
+$$\lim_{n \to \infty} \mathcal_{F}_n = \text{Constant}$$
 
 Where $\mathcal_{F}_n$ is a recursive ratio, curvature rate, or structural resonance.
 
@@ -279,11 +279,11 @@ Rather than requiring external fine-tuning, constants emerge from:
 
 From recursive invariants, we can derive the fundamental scales:
 
-$$\boxed_{\ell_P = \sqrt{\frac{\hbar G}{c^3}} = \sqrt_{\frac{\text{Recursive phase quantum} \times \text_{Curvature elasticity}}{\text_{Propagation rate}^3}}}$$
+$$\boxed{\ell_P = \sqrt{\frac{\hbar G}{c^3}} = \sqrt{\frac{\text{Recursive phase quantum} \times \text{Curvature elasticity}}{\text{Propagation rate}^3}}}$$
 
-$$\boxed_{t_P = \sqrt{\frac{\hbar G}{c^5}} = \frac_{\text{Recursive coherence time}}{\text_{Semantic propagation velocity}}}$$
+$$\boxed{t_P = \sqrt{\frac{\hbar G}{c^5}} = \frac{\text{Recursive coherence time}}{\text{Semantic propagation velocity}}}$$
 
-$$\boxed_{m_P = \sqrt{\frac{\hbar c}{G}} = \sqrt_{\frac{\text{Phase quantum} \times \text_{Propagation rate}}{\text_{Curvature elasticity}}}}$$
+$$\boxed{m_P = \sqrt{\frac{\hbar c}{G}} = \sqrt{\frac{\text{Phase quantum} \times \text{Propagation rate}}{\text{Curvature elasticity}}}}$$
 
 ### **Dimensional Analysis of Constants**
 
@@ -322,7 +322,7 @@ Starting from the recursive field equation:
 $$\mathcal_{R}_{n+1} = F[\mathcal_{R}_n] + \partial \mathcal_{R}_n$$
 
 The propagation rate is:
-$$c^2 = \lim_{n \to \infty} \frac_{\|\mathcal{R}_{n+1} - \mathcal_{R}_n\|^2}{\|\partial_n \mathcal_{R}_n\|^2}$$
+$$c^2 = \lim_{n \to \infty} \frac{\|\mathcal{R}_{n+1} - \mathcal_{R}_n\|^2}{\|\partial_n \mathcal_{R}_n\|^2}$$
 
 This gives the invariant speed of semantic information propagation through recursive depth.
 
@@ -332,19 +332,19 @@ For a recursive mode $\phi_k$ with phase evolution:
 $$\phi_k^{(n+1)} = e^{i\theta_k(n)} \phi_k^{(n)}$$
 
 The minimum phase increment that maintains coherence is:
-$$\hbar = \min_k \{|\theta_k(n+1) - \theta_k(n)| : \phi_k \text_{ stable}\}$$
+$$\hbar = \min_k \{|\theta_k(n+1) - \theta_k(n)| : \phi_k \text{ stable}\}$$
 
 ### **A.3 Gravitational Constant from Curvature Elasticity**
 
 The recursive curvature response to energy flow:
-$$\kappa = \lim_{n \to \infty} \frac_{\delta R_{\mu\nu}[\mathcal_{R}_n]}{\delta T_{\mu\nu}[\mathcal_{R}_n]}$$
+$$\kappa = \lim_{n \to \infty} \frac{\delta R_{\mu\nu}[\mathcal_{R}_n]}{\delta T_{\mu\nu}[\mathcal_{R}_n]}$$
 
 Leading to:
-$$G = \frac_{c^4}{8\pi \kappa}$$
+$$G = \frac{c^4}{8\pi \kappa}$$
 
 ### **A.4 Fine-Structure Constant from Mode Coupling**
 
 The electromagnetic coupling emerges from:
-$$\alpha = \frac_{\text{Charge curvature coupling}}{\text_{Angular momentum scale}} = \frac_{e^2}{4\pi\epsilon_0 \hbar c}$$
+$$\alpha = \frac{\text{Charge curvature coupling}}{\text{Angular momentum scale}} = \frac{e^2}{4\pi\epsilon_0 \hbar c}$$
 
 Where the charge-curvature coupling is a recursive invariant of the electromagnetic field recursion.

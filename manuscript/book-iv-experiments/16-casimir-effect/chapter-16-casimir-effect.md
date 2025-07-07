@@ -16,7 +16,7 @@ Let $\mathcal_{R}_n$ be the recursive field. Recursive modes $\Phi_k$ are:
 
 In SPH recursion, the vacuum is not empty space but **uncommitted recursive potential**:
 
-$$\mathcal_{V} := \left\{ \Phi \in \mathcal_{R}_n : \|\partial(\Phi)\|_{\text_{curv}} < \epsilon \right\}$$
+$$\mathcal{V} := \left\{ \Phi \in \mathcal{R}_n : \|\partial(\Phi)\|_{\text{curv}} < \epsilon \right\}$$
 
 Where:
 - $\mathcal_{V}$ = vacuum state as recursive potential space
@@ -27,7 +27,7 @@ Where:
 
 Introduce boundary surfaces $B_1, B_2$. Recursive modes incompatible with boundary conditions are removed:
 
-$$\mathcal_{R}_n^{B} := \mathcal_{R}_n \setminus \{ \Phi_k : \Phi_k \text_{ incompatible with } B_1, B_2 \}$$
+$$\mathcal{R}_n^{B} := \mathcal{R}_n \setminus \{ \Phi_k : \Phi_k \text{ incompatible with } B_1, B_2 \}$$
 
 This truncation alters recursive phase spectra and ground curvature energy.
 
@@ -43,15 +43,15 @@ Conducting boundaries impose **recursive semantic constraints**:
 
 Define:
 
-$$E_0^{\text_{free}} := \sum_k E_k, \quad E_0^{\text_{bound}} := \sum_k' E_k$$
+$$E_0^{\text{free}} := \sum_k E_k, \quad E_0^{\text{bound}} := \sum_k' E_k$$
 
 Casimir energy shift:
 
-$$\Delta E := E_0^{\text_{bound}} - E_0^{\text_{free}} < 0$$
+$$\Delta E := E_0^{\text{bound}} - E_0^{\text{free}} < 0$$
 
 Casimir force:
 
-$$F_{\text_{Casimir}} := -\frac_{d}{dL} \Delta E$$
+$$F_{\text{Casimir}} := -\frac{d}{dL} \Delta E$$
 
 It arises from semantic tension due to recursive mode suppression.
 
@@ -59,7 +59,7 @@ It arises from semantic tension due to recursive mode suppression.
 
 The Casimir force represents **recursive semantic pressure**:
 
-$$F_{\text_{Casimir}} = -\nabla \left( \text_{Recursive Semantic Tension} \right)$$
+$$F_{\text{Casimir}} = -\nabla \left( \text{Recursive Semantic Tension} \right)$$
 
 Where:
 - Force = gradient of recursive constraint energy
@@ -101,7 +101,7 @@ Different materials exhibit varying **recursive semantic coupling**:
 
 Moving boundaries create **time-varying recursive constraints**:
 
-$$\frac_{\partial \mathcal{R}_n^{B}}{\partial t} \neq 0$$
+$$\frac{\partial \mathcal{R}_n^{B}}{\partial t} \neq 0$$
 
 This generates:
 - **Photon creation** = recursive semantic excitation from boundary motion

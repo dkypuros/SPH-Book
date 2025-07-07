@@ -15,7 +15,7 @@ The key insight is that each point in spacetime carries not just coordinate info
 
 At each point $p \in \mathcal_{M}$, we have a Clifford algebra $\mathcal_{C}(p) = \mathcal_{C}\ell(T_p\mathcal_{M})$ constructed from the tangent space. This algebra carries:
 
-$$\mathcal_{C}(p) = \text_{span}\{1, e_i, e_i \wedge e_j, e_i \wedge e_j \wedge e_k, \ldots\}$$
+$$\mathcal_{C}(p) = \text{span}\{1, e_i, e_i \wedge e_j, e_i \wedge e_j \wedge e_k, \ldots\}$$
 
 where the $e_i$ are basis elements satisfying:
 $$e_i e_j + e_j e_i = 2\eta_{ij}$$
@@ -44,17 +44,17 @@ The health of recursive structures is measured by **coherence norms** - function
 
 For a semantic section $\sigma: \mathcal_{M} \to \mathcal_{C}$, define the **coherence norm**:
 
-$$\|\sigma\|_{\text_{coh}} = \int_{\mathcal_{M}} \|\sigma(p)\|_{\mathcal_{C}(p)} \sqrt_{|\det g|} \, d^4x$$
+$$\|\sigma\|_{\text{coh}} = \int_{\mathcal_{M}} \|\sigma(p)\|_{\mathcal_{C}(p)} \sqrt_{|\det g|} \, d^4x$$
 
 where $g$ is the induced metric on $\mathcal_{M}$ from the recursive curvature.
 
-Perfect coherence would require $\|\sigma\|_{\text_{coh}} = 0$, meaning all semantic structures are perfectly aligned across spacetime. However, this is impossible in finite recursive systems.
+Perfect coherence would require $\|\sigma\|_{\text{coh}} = 0$, meaning all semantic structures are perfectly aligned across spacetime. However, this is impossible in finite recursive systems.
 
 ### Residual Curvature
 
 The **residual curvature** arises from the impossibility of perfect coherence:
 
-$$\mathcal_{R}_{\text_{res}} = \inf_{\sigma} \|\sigma\|_{\text_{coh}}$$
+$$\mathcal_{R}_{\text{res}} = \inf_{\sigma} \|\sigma\|_{\text{coh}}$$
 
 This residual cannot be eliminated - it represents the fundamental tension between local recursive fixation and global semantic consistency.
 
@@ -68,7 +68,7 @@ Remarkably, this residual curvature manifests as measurable physical phenomena:
 
 The key insight is that **perfect alignment is structurally impossible** in finite recursive systems. The attempt to achieve global coherence necessarily introduces:
 
-$$\partial \mathcal_{R}_{\text_{res}} = \Lambda \neq 0$$
+$$\partial \mathcal_{R}_{\text{res}} = \Lambda \neq 0$$
 
 This explains why the cosmological constant cannot be zero - it is the signature of fundamental semantic tension in the recursive substrate of reality.
 

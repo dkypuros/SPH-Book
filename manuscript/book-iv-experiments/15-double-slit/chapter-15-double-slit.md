@@ -51,7 +51,7 @@ Where:
 
 Phase relationships in SPH recursion represent **semantic coherence**:
 
-$$\phi_{12} = \arg\left( \frac_{\Phi_1}{\Phi_2} \right)$$
+$$\phi_{12} = \arg\left( \frac{\Phi_1}{\Phi_2} \right)$$
 
 - **Constructive interference** = recursive semantic reinforcement
 - **Destructive interference** = recursive semantic cancellation
@@ -61,7 +61,7 @@ $$\phi_{12} = \arg\left( \frac_{\Phi_1}{\Phi_2} \right)$$
 
 Wavefunction collapse represents **recursive fix-point selection**:
 
-$$|\psi\rangle \xrightarrow_{\text{measurement}} |\psi_{\text_{fixed}}\rangle$$
+$$|\psi\rangle \xrightarrow{\text{measurement}} |\psi_{\text{fixed}}\rangle$$
 
 In SPH recursion:
 

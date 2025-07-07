@@ -51,7 +51,7 @@ Inflation ends when:
 
 The inflation creates a **curvature horizon** beyond which semantic information cannot propagate:
 
-$$r_h = \int_0^{t_{\text_{end}}} \frac_{c \, dt}{a(t)}$$
+$$r_h = \int_0^{t_{\text{end}}} \frac{c \, dt}{a(t)}$$
 
 Where $a(t)$ is the scale factor of semantic expansion.
 
@@ -84,7 +84,7 @@ Dark energy is often explained via a cosmological constant. In recursion:
 
 The residual tension creates acceleration:
 
-$$\ddot_{a} = \frac_{\Lambda c^2}{3} a - \frac_{4\pi G}{3}(\rho + 3p)a$$
+$$\ddot{a} = \frac{\Lambda c^2}{3} a - \frac{4\pi G}{3}(\rho + 3p)a$$
 
 Where $\Lambda$ represents the residual semantic curvature pressure.
 
@@ -115,9 +115,9 @@ This reframes cosmological structure formation as:
 
 The basin dynamics follow:
 
-$$\frac_{d\mathcal{R}}{dt} = -\nabla V_{\text_{semantic}}(\mathcal_{R})$$
+$$\frac{d\mathcal{R}}{dt} = -\nabla V_{\text{semantic}}(\mathcal{R})$$
 
-Where $V_{\text_{semantic}}$ is the semantic potential landscape.
+Where $V_{\text{semantic}}$ is the semantic potential landscape.
 
 ### Recursive Time Epochs
 
@@ -143,7 +143,7 @@ Each epoch has distinct characteristics:
 
 Transitions between epochs occur when:
 
-$$\frac_{|\partial \mathcal{R}_n|}{|\mathcal_{F}_n|} = \text_{critical value}$$
+$$\frac{|\partial \mathcal{R}_n|}{|\mathcal{F}_n|} = \text{critical value}$$
 
 This ratio determines the dominant physics of each epoch.
 
@@ -187,9 +187,9 @@ The universe emerges as:
 
 1. **Recursive Universe**: $\mathcal_{R}_0 \rightarrow \mathcal_{R}_1 \rightarrow \cdots \rightarrow \mathcal_{R}_n$
 2. **Inflation**: $\mathcal_{R}_{n+1} = e^{\alpha} \mathcal_{R}_n + \beta \partial(\mathcal_{R}_n)$
-3. **Dark Energy**: $\ddot_{a} = \frac_{\Lambda c^2}{3} a - \frac_{4\pi G}{3}(\rho + 3p)a$
-4. **Basin Dynamics**: $\frac_{d\mathcal{R}}{dt} = -\nabla V_{\text_{semantic}}(\mathcal_{R})$
-5. **Epoch Transition**: $\frac_{|\partial \mathcal{R}_n|}{|\mathcal_{F}_n|} = \text_{critical value}$
+3. **Dark Energy**: $\ddot{a} = \frac{\Lambda c^2}{3} a - \frac{4\pi G}{3}(\rho + 3p)a$
+4. **Basin Dynamics**: $\frac{d\mathcal{R}}{dt} = -\nabla V_{\text{semantic}}(\mathcal{R})$
+5. **Epoch Transition**: $\frac{|\partial \mathcal{R}_n|}{|\mathcal{F}_n|} = \text{critical value}$
 
 ### Observational Predictions
 

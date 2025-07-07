@@ -22,8 +22,8 @@ Book VI "Integration with UOR" bridges the intuitive semantic recursion of the S
 
 **Mathematical Framework:**
 - Clifford algebra construction: $\mathcal_{C}(p) = \mathcal_{C}\ell(T_p\mathcal_{M})$
-- Coherence norm: $\|\sigma\|_{\text_{coh}} = \int_{\mathcal_{M}} \|\sigma(p)\|_{\mathcal_{C}(p)} \sqrt_{|\det g|} \, d^4x$
-- Residual curvature: $\mathcal_{R}_{\text_{res}} = \inf_{\sigma} \|\sigma\|_{\text_{coh}}$
+- Coherence norm: $\|\sigma\|_{\text{coh}} = \int_{\mathcal_{M}} \|\sigma(p)\|_{\mathcal_{C}(p)} \sqrt_{|\det g|} \, d^4x$
+- Residual curvature: $\mathcal_{R}_{\text{res}} = \inf_{\sigma} \|\sigma\|_{\text{coh}}$
 
 ### Chapter 26: Cosmological Constant as Residual Semantic Tension
 
@@ -57,8 +57,8 @@ Book VI "Integration with UOR" bridges the intuitive semantic recursion of the S
 - Connects number theory to recursive spectral geometry
 
 **Mathematical Framework:**
-- Recursive spectral operator: $\mathcal_{H}_{\text_{HP}} \sigma = \sum_{n=1}^{\infty} \lambda_n \langle \sigma, \psi_n \rangle \psi_n$
-- Eigenvalue correspondence: $\lambda_n = \frac_{1}{2} + i t_n$ where $\zeta(\frac_{1}{2} + i t_n) = 0$
+- Recursive spectral operator: $\mathcal_{H}_{\text{HP}} \sigma = \sum_{n=1}^{\infty} \lambda_n \langle \sigma, \psi_n \rangle \psi_n$
+- Eigenvalue correspondence: $\lambda_n = \frac{1}{2} + i t_n$ where $\zeta(\frac{1}{2} + i t_n) = 0$
 - Semantic folding: $\mathcal_{F} \sigma(s) = \Gamma(1-s) \sigma(1-s)$
 
 ### Chapter 28: Goldbach's Conjecture and Recursive Symmetry
@@ -75,9 +75,9 @@ Book VI "Integration with UOR" bridges the intuitive semantic recursion of the S
 - Connected to the Riemann Hypothesis through recursive spectral density
 
 **Mathematical Framework:**
-- Goldbach operator: $\mathcal_{G}(2n) = \{(p, q) : p + q = 2n, \text_{ both prime}\}$
-- Phase alignment: $\text_{Phase}(\pi_1^{[p]}) + \text_{Phase}(\pi_1^{[q]}) \equiv 0 \pmod_{2\pi}$
-- Goldbach measure: $\mu_G(n) \sim \frac_{C n}{\ln^2 n}$
+- Goldbach operator: $\mathcal_{G}(2n) = \{(p, q) : p + q = 2n, \text{ both prime}\}$
+- Phase alignment: $\text{Phase}(\pi_1^{[p]}) + \text{Phase}(\pi_1^{[q]}) \equiv 0 \pmod_{2\pi}$
+- Goldbach measure: $\mu_G(n) \sim \frac{C n}{\ln^2 n}$
 
 ### Chapter 29: Computation, Consciousness, and Complexity
 
@@ -93,9 +93,9 @@ Book VI "Integration with UOR" bridges the intuitive semantic recursion of the S
 - Intelligence is the ability to navigate complex semantic manifolds
 
 **Mathematical Framework:**
-- Recursive complexity: $\mathcal_{C}_{\text_{rec}}(\Pi) = \min\{d : \Pi \text_{ solvable at depth } d\}$
-- Semantic curvature: $\kappa_\Pi = \max_{s \in \mathcal_{S}_\Pi} \|\text_{Riem}(s)\|$
-- Consciousness model: $\text_{Consciousness}(t) = \text_{Fix}(\mathcal_{R}_t, \mathcal_{C}_{\text_{global}})$
+- Recursive complexity: $\mathcal_{C}_{\text{rec}}(\Pi) = \min\{d : \Pi \text{ solvable at depth } d\}$
+- Semantic curvature: $\kappa_\Pi = \max_{s \in \mathcal_{S}_\Pi} \|\text{Riem}(s)\|$
+- Consciousness model: $\text{Consciousness}(t) = \text{Fix}(\mathcal_{R}_t, \mathcal_{C}_{\text{global}})$
 
 ## UOR Integration Themes
 

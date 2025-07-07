@@ -19,7 +19,7 @@ $$\mathcal_{R}_A^{(n+1)} = F_A(\mathcal_{R}_A^{(n)}, \mathcal_{R}_B^{(n)})$$
 $$\mathcal_{R}_B^{(n+1)} = F_B(\mathcal_{R}_B^{(n)}, \mathcal_{R}_A^{(n)})$$
 
 The systems reach mutual fixation when:
-$$\mathcal_{R}_A^{(n)} = \mathcal_{R}_A^{(n+1)} \text_{ and } \mathcal_{R}_B^{(n)} = \mathcal_{R}_B^{(n+1)}$$
+$$\mathcal_{R}_A^{(n)} = \mathcal_{R}_A^{(n+1)} \text{ and } \mathcal_{R}_B^{(n)} = \mathcal_{R}_B^{(n+1)}$$
 
 This represents the **measurement event**—the moment when observer and observed lock into a shared semantic state.
 
@@ -29,7 +29,7 @@ Fix-point condition:
 $$\mathcal_{R}_n(\phi) = \phi$$
 
 Collapse condition:
-$$\boxed_{\exists \phi^* \in \text{Fix}(\mathcal_{R}_n), \quad \| \partial(\phi^*) \|_{\text_{curv}} > \epsilon}$$
+$$\boxed{\exists \phi^* \in \text{Fix}(\mathcal_{R}_n), \quad \| \partial(\phi^*) \|_{\text{curv}} > \epsilon}$$
 
 Collapse occurs when recursive feedback locks in structure.
 
@@ -37,9 +37,9 @@ Collapse occurs when recursive feedback locks in structure.
 
 The convergence to measurement outcomes follows a recursive trajectory governed by semantic feedback. The system evolves according to:
 
-$$\mathcal_{R}_{n+1} = \mathcal_{R}_n + \alpha \cdot \nabla_{\text_{semantic}} \mathcal_{R}_n$$
+$$\mathcal_{R}_{n+1} = \mathcal_{R}_n + \alpha \cdot \nabla_{\text{semantic}} \mathcal_{R}_n$$
 
-Where $\alpha$ is the semantic feedback strength and $\nabla_{\text_{semantic}}$ represents the gradient in semantic space.
+Where $\alpha$ is the semantic feedback strength and $\nabla_{\text{semantic}}$ represents the gradient in semantic space.
 
 ### Superposition as Recursive Overlay
 
@@ -82,7 +82,7 @@ This closure ensures that the measurement is semantically consistent and stable.
 
 Probabilities emerge from the geometric structure of recursive entanglement. For a system with possible outcomes $\{\phi_i\}$:
 
-$$\boxed_{P(\phi_i) := \frac{\| \partial(\phi_i) \|^2}{\sum_j \| \partial(\phi_j) \|^2}}$$
+$$\boxed{P(\phi_i) := \frac{\| \partial(\phi_i) \|^2}{\sum_j \| \partial(\phi_j) \|^2}}$$
 
 This probability emerges from recursive curvature pressure—mirroring the Born rule but with semantic geometric foundation.
 
@@ -95,7 +95,7 @@ Entangled systems:
 
 The correlation between entangled systems is maintained through their shared recursive history:
 
-$$\text_{Corr}(\mathcal_{R}_A, \mathcal_{R}_B) = \frac_{\langle \partial \mathcal{R}_A, \partial \mathcal_{R}_B \rangle}{\|\partial \mathcal_{R}_A\| \|\partial \mathcal_{R}_B\|}$$
+$$\text{Corr}(\mathcal_{R}_A, \mathcal_{R}_B) = \frac{\langle \partial \mathcal{R}_A, \partial \mathcal_{R}_B \rangle}{\|\partial \mathcal_{R}_A\| \|\partial \mathcal_{R}_B\|}$$
 
 ## 17.6 Measurement Devices as Semantic Filters
 
@@ -135,7 +135,7 @@ The key insight is that measurement is not an external observation but a **recur
 ### Core Measurement Equations
 
 1. **Mutual Locking**: $\mathcal_{R}_A \leftrightarrow \mathcal_{R}_B$
-2. **Fix-Point Convergence**: $\mathcal_{R}_n \rightarrow \text_{Fix}(\mathcal_{R})$
+2. **Fix-Point Convergence**: $\mathcal_{R}_n \rightarrow \text{Fix}(\mathcal_{R})$
 3. **Probability**: $P(\phi) = \|\partial \phi\|^2 / \sum_j \|\partial \phi_j\|^2$
 4. **Closure**: $\mathcal_{O} \circ \mathcal_{M} \circ \mathcal_{S} = \mathcal_{O}$
 

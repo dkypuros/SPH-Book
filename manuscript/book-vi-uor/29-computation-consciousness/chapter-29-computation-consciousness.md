@@ -10,7 +10,7 @@ In traditional complexity theory, computational problems are classified by the *
 
 Define the **recursive complexity** of a problem $\Pi$ as:
 
-$$\mathcal_{C}_{\text_{rec}}(\Pi) = \min\{d : \Pi \text_{ solvable at recursive depth } d\}$$
+$$\mathcal_{C}_{\text{rec}}(\Pi) = \min\{d : \Pi \text{ solvable at recursive depth } d\}$$
 
 The complexity classes then become:
 
@@ -24,9 +24,9 @@ The key insight is that computational problems correspond to **navigation proble
 
 For a problem $\Pi$ with solution space $\mathcal_{S}_\Pi$, define the **semantic curvature** as:
 
-$$\kappa_\Pi = \max_{s \in \mathcal_{S}_\Pi} \|\text_{Riem}(s)\|$$
+$$\kappa_\Pi = \max_{s \in \mathcal_{S}_\Pi} \|\text{Riem}(s)\|$$
 
-where $\text_{Riem}(s)$ is the **Riemann curvature tensor** of the semantic manifold at solution $s$.
+where $\text{Riem}(s)$ is the **Riemann curvature tensor** of the semantic manifold at solution $s$.
 
 ### P vs NP as Curvature Separation
 
@@ -42,7 +42,7 @@ The intuition is that **verification** corresponds to **geodesic following** (lo
 
 The UOR framework reveals a **recursive hierarchy** of complexity classes:
 
-$$\text_{P} \subset \text_{NP} \subset \text_{PSPACE} \subset \text_{EXP} \subset \text_{NEXP} \subset \ldots$$
+$$\text{P} \subset \text{NP} \subset \text{PSPACE} \subset \text{EXP} \subset \text{NEXP} \subset \ldots$$
 
 Each level corresponds to a **recursive depth** in the semantic manifold:
 
@@ -71,9 +71,9 @@ When we verify a solution, we are performing **semantic fixation** - stabilizing
 
 The verification process can be modeled as:
 
-$$\text_{Verify}(s, \Pi) = \|\text_{Fix}(s, \mathcal_{S}_\Pi)\|_{\text_{coh}}$$
+$$\text{Verify}(s, \Pi) = \|\text{Fix}(s, \mathcal_{S}_\Pi)\|_{\text{coh}}$$
 
-where $\text_{Fix}(s, \mathcal_{S}_\Pi)$ represents the **fixation** of candidate solution $s$ within the solution space $\mathcal_{S}_\Pi$.
+where $\text{Fix}(s, \mathcal_{S}_\Pi)$ represents the **fixation** of candidate solution $s$ within the solution space $\mathcal_{S}_\Pi$.
 
 ### Cognitive Asymmetry
 
@@ -97,9 +97,9 @@ Different types of cognitive tasks correspond to different **fixation depths**:
 
 Model consciousness as a **recursive fixation process**:
 
-$$\text_{Consciousness}(t) = \text_{Fix}(\mathcal_{R}_t, \mathcal_{C}_{\text_{global}})$$
+$$\text{Consciousness}(t) = \text{Fix}(\mathcal_{R}_t, \mathcal_{C}_{\text{global}})$$
 
-where $\mathcal_{R}_t$ is the recursive state at time $t$ and $\mathcal_{C}_{\text_{global}}$ is the **global coherence structure** of the cognitive system.
+where $\mathcal_{R}_t$ is the recursive state at time $t$ and $\mathcal_{C}_{\text{global}}$ is the **global coherence structure** of the cognitive system.
 
 The **depth of consciousness** corresponds to the **recursive depth** of this fixation process. Higher consciousness involves **deeper recursive fixation** - the ability to stabilize more complex meaning structures.
 
@@ -131,7 +131,7 @@ Every computational problem defines a **semantic landscape** - a geometric struc
 
 The **computational complexity** of a problem is directly related to the **average curvature** of its semantic landscape:
 
-$$\text_{Complexity}(\Pi) \propto \int_{\mathcal_{S}_\Pi} \kappa(s) \, d\mu(s)$$
+$$\text{Complexity}(\Pi) \propto \int_{\mathcal_{S}_\Pi} \kappa(s) \, d\mu(s)$$
 
 where $\kappa(s)$ is the semantic curvature at point $s$ and $\mu$ is the **natural measure** on the solution space.
 
@@ -219,7 +219,7 @@ This suggests that **artificial consciousness** is not a separate problem from *
 
 The framework suggests that the **ultimate computational complexity** corresponds to the **self-understanding** of recursive systems:
 
-$$\text_{Complexity}(\text_{Self-Understanding}) = \text_{Curvature}(\text_{Recursive Reality})$$
+$$\text{Complexity}(\text{Self-Understanding}) = \text{Curvature}(\text{Recursive Reality})$$
 
 This is the **computational complexity** of consciousness itself - the recursive depth required for a system to achieve complete self-awareness within its own semantic manifold.
 

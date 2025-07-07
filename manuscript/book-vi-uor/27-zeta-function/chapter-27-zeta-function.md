@@ -10,13 +10,13 @@ In the UOR framework, we construct a **recursive spectral operator** whose eigen
 
 From our Casimir effect analysis, we encountered the regularization:
 
-$$\sum_{n=1}^{\infty} n = \zeta(-1) = -\frac_{1}{12}$$
+$$\sum_{n=1}^{\infty} n = \zeta(-1) = -\frac{1}{12}$$
 
 This is not merely a mathematical trick, but reveals a deep connection between **recursive mode sums** and the analytic structure of the zeta function.
 
 In the UOR framework, consider the **recursive spectral operator**:
 
-$$\mathcal_{H}_{\text_{rec}} = \sum_{n=1}^{\infty} n \cdot P_n$$
+$$\mathcal_{H}_{\text{rec}} = \sum_{n=1}^{\infty} n \cdot P_n$$
 
 where $P_n$ are projection operators onto the $n$-th recursive mode. The spectrum of this operator encodes the zeta zeros.
 
@@ -24,25 +24,25 @@ where $P_n$ are projection operators onto the $n$-th recursive mode. The spectru
 
 Define the **semantic recursion operator** on the Hilbert space $\mathcal_{H} = L^2(\mathcal_{M}, \mathcal_{C})$ of square-integrable Clifford sections:
 
-$$\mathcal_{H}_{\text_{HP}} \sigma = \sum_{n=1}^{\infty} \lambda_n \langle \sigma, \psi_n \rangle \psi_n$$
+$$\mathcal_{H}_{\text{HP}} \sigma = \sum_{n=1}^{\infty} \lambda_n \langle \sigma, \psi_n \rangle \psi_n$$
 
 where $\{\psi_n\}$ are the **recursive eigensections** satisfying:
 
-$$\nabla^2 \psi_n + \mathcal_{V}_{\text_{sem}} \psi_n = \lambda_n \psi_n$$
+$$\nabla^2 \psi_n + \mathcal_{V}_{\text{sem}} \psi_n = \lambda_n \psi_n$$
 
-The **semantic potential** $\mathcal_{V}_{\text_{sem}}$ encodes the recursive structure of meaning:
+The **semantic potential** $\mathcal_{V}_{\text{sem}}$ encodes the recursive structure of meaning:
 
-$$\mathcal_{V}_{\text_{sem}} = \|\partial \mathcal_{R}\|^2 + \mathcal_{C}_{\text_{curv}}$$
+$$\mathcal_{V}_{\text{sem}} = \|\partial \mathcal_{R}\|^2 + \mathcal_{C}_{\text{curv}}$$
 
-where $\mathcal_{C}_{\text_{curv}}$ is the curvature contribution from recursive tension.
+where $\mathcal_{C}_{\text{curv}}$ is the curvature contribution from recursive tension.
 
 ### Spectral Correspondence
 
-The key insight is that the eigenvalues $\lambda_n$ of $\mathcal_{H}_{\text_{HP}}$ correspond to the non-trivial zeros of $\zeta(s)$:
+The key insight is that the eigenvalues $\lambda_n$ of $\mathcal_{H}_{\text{HP}}$ correspond to the non-trivial zeros of $\zeta(s)$:
 
-$$\lambda_n = \frac_{1}{2} + i t_n$$
+$$\lambda_n = \frac{1}{2} + i t_n$$
 
-where $\zeta(\frac_{1}{2} + i t_n) = 0$.
+where $\zeta(\frac{1}{2} + i t_n) = 0$.
 
 This correspondence arises because the recursive structure of meaning has the same **scaling symmetry** as the zeta function, encoded in the functional equation:
 
@@ -50,9 +50,9 @@ $$\zeta(s) = 2^s \pi^{s-1} \sin(\pi s/2) \Gamma(1-s) \zeta(1-s)$$
 
 ### Proof of Self-Adjointness
 
-To verify the Hilbert–Pólya conjecture, we must show that $\mathcal_{H}_{\text_{HP}}$ is self-adjoint:
+To verify the Hilbert–Pólya conjecture, we must show that $\mathcal_{H}_{\text{HP}}$ is self-adjoint:
 
-$$\langle \sigma_1, \mathcal_{H}_{\text_{HP}} \sigma_2 \rangle = \langle \mathcal_{H}_{\text_{HP}} \sigma_1, \sigma_2 \rangle$$
+$$\langle \sigma_1, \mathcal_{H}_{\text{HP}} \sigma_2 \rangle = \langle \mathcal_{H}_{\text{HP}} \sigma_1, \sigma_2 \rangle$$
 
 This follows from the **hermiticity of recursive operations**:
 
@@ -70,9 +70,9 @@ In UOR, all prime numbers are understood as **emanations** of a single irreducib
 
 The Single Prime Hypothesis states:
 
-$$\text_{Prime}(p) \iff p = \text_{Emanate}(\pi_1, n)$$
+$$\text{Prime}(p) \iff p = \text{Emanate}(\pi_1, n)$$
 
-for some recursive index $n$. Here, $\text_{Emanate}(\pi_1, n)$ represents the $n$-th recursive unfolding of the prime seed.
+for some recursive index $n$. Here, $\text{Emanate}(\pi_1, n)$ represents the $n$-th recursive unfolding of the prime seed.
 
 ### Base-1 Arithmetic
 
@@ -101,9 +101,9 @@ has solutions corresponding to the prime spectrum. The eigenvalues $\lambda$ are
 
 In the UOR framework, the **Prime Number Theorem** becomes a statement about recursive spectral density:
 
-$$\pi(x) \sim \frac_{x}{\ln x} \Rightarrow \rho_{\text_{rec}}(t) \sim \frac_{1}{\ln t}$$
+$$\pi(x) \sim \frac{x}{\ln x} \Rightarrow \rho_{\text{rec}}(t) \sim \frac{1}{\ln t}$$
 
-where $\rho_{\text_{rec}}(t)$ is the **recursive spectral density** at energy $t$.
+where $\rho_{\text{rec}}(t)$ is the **recursive spectral density** at energy $t$.
 
 This connects the asymptotic distribution of primes to the spectrum of recursive operators, providing a geometric interpretation of analytic number theory.
 
@@ -153,9 +153,9 @@ The functional equation has a beautiful geometric interpretation in terms of **r
 
 ### Riemann Hypothesis Connection
 
-The Riemann Hypothesis - that all non-trivial zeros of $\zeta(s)$ have real part $\frac_{1}{2}$ - becomes a statement about **recursive balance**.
+The Riemann Hypothesis - that all non-trivial zeros of $\zeta(s)$ have real part $\frac{1}{2}$ - becomes a statement about **recursive balance**.
 
-In UOR terms, the critical line $\Re(s) = \frac_{1}{2}$ corresponds to the **perfect balance** between expansive and contractive recursion. The zeros occur precisely where recursive meaning achieves **perfect symmetry** between unfolding and folding.
+In UOR terms, the critical line $\Re(s) = \frac{1}{2}$ corresponds to the **perfect balance** between expansive and contractive recursion. The zeros occur precisely where recursive meaning achieves **perfect symmetry** between unfolding and folding.
 
 This geometric interpretation suggests that the Riemann Hypothesis is not merely an analytical curiosity, but reflects a fundamental **principle of recursive balance** in the structure of meaning itself.
 
@@ -167,7 +167,7 @@ $$\zeta(s) = \chi(s) \zeta(1-s)$$
 
 where $\chi(s) = 2^s \pi^{s-1} \sin(\pi s/2) \Gamma(1-s)$ is the **functional equation factor**, can be written as:
 
-$$\det(\mathcal_{H}_{\text_{HP}} - s I) = \chi(s) \det(\mathcal_{H}_{\text_{HP}} - (1-s) I)$$
+$$\det(\mathcal_{H}_{\text{HP}} - s I) = \chi(s) \det(\mathcal_{H}_{\text{HP}} - (1-s) I)$$
 
 This shows that the **characteristic polynomial** of the recursive spectral operator has the same mirror symmetry as the zeta function, confirming the spectral interpretation of the zeros.
 
@@ -175,8 +175,8 @@ This shows that the **characteristic polynomial** of the recursive spectral oper
 
 The UOR framework provides **computational methods** for verifying these connections:
 
-1. **Recursive mode calculation**: Direct computation of eigenvalues of $\mathcal_{H}_{\text_{HP}}$
-2. **Semantic potential optimization**: Minimization of $\mathcal_{V}_{\text_{sem}}$ to find ground states
+1. **Recursive mode calculation**: Direct computation of eigenvalues of $\mathcal_{H}_{\text{HP}}$
+2. **Semantic potential optimization**: Minimization of $\mathcal_{V}_{\text{sem}}$ to find ground states
 3. **Base-1 arithmetic**: Implementation of π₁-based prime generation
 4. **Folding simulation**: Numerical verification of the functional equation structure
 

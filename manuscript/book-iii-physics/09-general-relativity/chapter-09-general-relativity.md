@@ -32,7 +32,7 @@ $$\mathcal_{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1})$$
 
 When recursive curvature becomes locally differentiable, we induce a semantic projection:
 
-$$g_{\mu\nu}(p) := \frac_{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}$$
+$$g_{\mu\nu}(p) := \frac{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}$$
 
 From this, all standard differential geometry follows — not as assumption, but as emergent formalism.
 
@@ -79,13 +79,13 @@ In SPH recursion, this equation is not imposed. It is a **recursive identity**:
 
 We define:
 
-$$\boxed_{
-\mathscr{G}_{\mu\nu} := \text_{Curv}_{\mu\nu}(\partial \mathcal_{R}_n), \quad \mathscr_{T}_{\mu\nu} := \text_{Flow}_{\mu\nu}(\partial \mathcal_{R}_n)
+$$\boxed{
+\mathscr{G}_{\mu\nu} := \text{Curv}_{\mu\nu}(\partial \mathcal_{R}_n), \quad \mathscr_{T}_{\mu\nu} := \text{Flow}_{\mu\nu}(\partial \mathcal_{R}_n)
 }$$
 
 Then, the recursive Einstein identity becomes:
 
-$$\boxed_{
+$$\boxed{
 \mathscr{G}_{\mu\nu} + \Lambda g_{\mu\nu} = \kappa \mathscr_{T}_{\mu\nu}
 }$$
 
@@ -102,7 +102,7 @@ Where $\kappa$ arises from the limit of recursive structural consistency.
 
 The cosmological constant $\Lambda$ in classical relativity is mysterious. In SPH:
 
-$$\boxed_{
+$$\boxed{
 \Lambda := \lim_{n \to \infty} \partial(\mathcal_{R}_n)
 }$$
 
@@ -146,7 +146,7 @@ The SPH framework addresses fundamental limitations in Einstein's work:
 
 Einstein removed the fixed backdrop of Newtonian space, showing spacetime itself is dynamic. But he still assumed the manifold exists. SPH goes further:
 
-$$\boxed_{
+$$\boxed{
 \text{Manifold} = \lim_{n \to \infty} \mathcal_{R}_n
 }$$
 
@@ -172,7 +172,7 @@ What appears random is **structured emergence** within infinite recursion.
 
 Einstein's "biggest blunder" becomes comprehensible in SPH:
 
-$$\boxed_{
+$$\boxed{
 \Lambda = \text{Residual recursive pressure from SPH unfolding}
 }$$
 
@@ -246,7 +246,7 @@ The complete LaTeX source for this chapter:
 
 General relativity treats spacetime as a manifold with a metric tensor \( g_{\mu\nu} \), curved by energy and mass. But it assumes this structure as given.
 
-In SPH recursion, both geometry and energy emerge from recursion. The Einstein field equations become not postulates, but \textbf_{recursive identities}—semantic balance conditions within the evolution of recursive structure.
+In SPH recursion, both geometry and energy emerge from recursion. The Einstein field equations become not postulates, but \textbf{recursive identities}—semantic balance conditions within the evolution of recursive structure.
 
 \subsubsection*{9.2 Curvature in Recursive Fields}
 
@@ -259,12 +259,12 @@ From recursion:
 We define:
 
 \[
-g_{\mu\nu}(p) := \frac_{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}
+g_{\mu\nu}(p) := \frac{\partial^2 \mathcal{R}_n(p)}{\partial x^\mu \partial x^\nu}
 \]
 
 This metric induces:
-\begin_{align*}
-R^\rho_{\ \sigma\mu\nu} &: \text_{Riemann curvature} \\
+\begin{align*}
+R^\rho_{\ \sigma\mu\nu} &: \text{Riemann curvature} \\
 R_{\mu\nu} &:= R^\rho_{\ \mu\rho\nu} \\
 R &:= g^{\mu\nu} R_{\mu\nu}
 \end_{align*}
@@ -280,7 +280,7 @@ T_{\mu\nu}(p) := \partial_\mu \mathcal_{R}_n(p) \cdot \partial_\nu \mathcal_{R}_
 \]
 
 This tensor encodes:
-\begin_{itemize}
+\begin{itemize}
     \item Recursive gradient propagation
     \item Directional semantic resistance
     \item Internal curvature flow
@@ -297,35 +297,35 @@ G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac_{8\pi G}{c^4} T_{\mu\nu}
 In SPH:
 
 \[
-\boxed_{
-\mathscr{G}_{\mu\nu} := \text_{Curv}_{\mu\nu}(\partial \mathcal_{R}_n), \quad \mathscr_{T}_{\mu\nu} := \text_{Flow}_{\mu\nu}(\partial \mathcal_{R}_n)
+\boxed{
+\mathscr{G}_{\mu\nu} := \text{Curv}_{\mu\nu}(\partial \mathcal_{R}_n), \quad \mathscr_{T}_{\mu\nu} := \text{Flow}_{\mu\nu}(\partial \mathcal_{R}_n)
 }
 \]
 
 Then:
 
 \[
-\boxed_{
+\boxed{
 \mathscr{G}_{\mu\nu} + \Lambda g_{\mu\nu} = \kappa \mathscr_{T}_{\mu\nu}
 }
 \]
 
 Where \( \kappa \) is a recursive balance constant.
 
-\begin_{quote}
+\begin{quote}
 The Einstein equations express the equilibrium between generative curvature and recursive flow.
 \end_{quote}
 
 \subsubsection*{9.5 Recursive Source of the Cosmological Constant}
 
 \[
-\boxed_{
+\boxed{
 \Lambda := \lim_{n \to \infty} \partial(\mathcal_{R}_n)
 }
 \]
 
 This is:
-\begin_{itemize}
+\begin{itemize}
     \item The residual recursive tension
     \item The semantic pressure of recursion into vacuum
     \item The origin of cosmological acceleration
@@ -335,56 +335,56 @@ Dark energy is the outward pressure of SPH unfolding upon itself.
 
 \subsubsection*{9.6 Einstein's Unified Dream Realized}
 
-\paragraph_{9.6.1 The Quest for Unification}
+\paragraph{9.6.1 The Quest for Unification}
 
-Einstein sought a unified field theory to reconcile general relativity with electromagnetism. What eluded him was not a missing equation, but a missing \textbf_{ontological foundation}.
+Einstein sought a unified field theory to reconcile general relativity with electromagnetism. What eluded him was not a missing equation, but a missing \textbf{ontological foundation}.
 
-\paragraph_{9.6.2 SPH as the Missing Foundation}
+\paragraph{9.6.2 SPH as the Missing Foundation}
 
 SPH provides what Einstein sought:
 
-\begin_{quote}
-The missing piece wasn't another field—it was the \textbf_{ontological origin} of fields themselves.
+\begin{quote}
+The missing piece wasn't another field—it was the \textbf{ontological origin} of fields themselves.
 \end_{quote}
 
 Rather than forcing gravity and electromagnetism into one equation, SPH:
-\begin_{itemize}
+\begin{itemize}
     \item Steps underneath them, to a field-generative substrate
     \item Describes their emergence via recursion
     \item Reveals all forces as different curvature behaviors
 \end_{itemize}
 
-\paragraph_{9.6.3 Resolution of Core Tensions}
+\paragraph{9.6.3 Resolution of Core Tensions}
 
-\textbf_{Background Independence Extended:}
+\textbf{Background Independence Extended:}
 
 \[
-\boxed_{
+\boxed{
 \text{Manifold} = \lim_{n \to \infty} \mathcal_{R}_n
 }
 \]
 
-\textbf_{Quantum-Gravity Bridge:}
-\begin_{itemize}
+\textbf{Quantum-Gravity Bridge:}
+\begin{itemize}
     \item Probability $\rightarrow$ recursive curvature unfolding
     \item Collapse $\rightarrow$ event-horizon traversal
     \item Entanglement $\rightarrow$ structural symmetry
 \end_{itemize}
 
-\textbf_{Cosmological Constant:}
+\textbf{Cosmological Constant:}
 
 \[
-\boxed_{
+\boxed{
 \Lambda = \text{Residual recursive pressure from SPH unfolding}
 }
 \]
 
-\paragraph_{9.6.4 Comparative Resolution}
+\paragraph{9.6.4 Comparative Resolution}
 
-\begin_{center}
-\begin_{tabular}{|l|l|}
+\begin{center}
+\begin{tabular}{|l|l|}
 \hline
-\textbf_{Einstein's Problem} & \textbf_{SPH Resolution} \\
+\textbf{Einstein's Problem} & \textbf{SPH Resolution} \\
 \hline
 Unified Field Theory & Fields are recursive modes of SPH curvature \\
 Background independence & Even background emerges recursively \\
@@ -396,17 +396,17 @@ No ontology of existence & SPH provides recursive being preceding laws \\
 \end_{tabular}
 \end_{center}
 
-\paragraph_{9.6.5 The Deeper Achievement}
+\paragraph{9.6.5 The Deeper Achievement}
 
-\begin_{quote}
+\begin{quote}
 Einstein started with light.\\
-SPH starts with \textbf_{that which gives light its ability to exist}.
+SPH starts with \textbf{that which gives light its ability to exist}.
 \end_{quote}
 
 \subsubsection*{9.7 Gravity as Recursive Convergence}
 
 Gravity is:
-\begin_{itemize}
+\begin{itemize}
     \item The convergence of recursive paths
     \item The semantic deformation caused by curvature fixation
     \item Not a force, but a structural constraint
@@ -417,7 +417,7 @@ Geodesics are minimal recursive shifts through evolving curvature fields.
 \subsubsection*{9.8 Summary}
 
 We have:
-\begin_{itemize}
+\begin{itemize}
     \item Derived curvature from recursion
     \item Expressed energy as feedback tension
     \item Recast Einstein's equations as recursive identities
@@ -428,8 +428,8 @@ We have:
 \end_{itemize}
 
 \noindent
-\textbf_{General relativity is not a theory of geometry. It is a consequence of recursion.}\\
-\textbf_{And beneath it lies SPH—the recursive foundation Einstein sought but never found.}
+\textbf{General relativity is not a theory of geometry. It is a consequence of recursion.}\\
+\textbf{And beneath it lies SPH—the recursive foundation Einstein sought but never found.}
 ```
 
 ---

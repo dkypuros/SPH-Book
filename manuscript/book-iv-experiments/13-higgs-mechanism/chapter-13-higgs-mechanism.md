@@ -10,7 +10,7 @@ In the Standard Model, the Higgs mechanism introduces mass via spontaneous symme
 
 Mass is recursive curvature feedback:
 
-$$m := \left\| \partial(\phi) \right\|_{\text_{curv}}$$
+$$m := \left\| \partial(\phi) \right\|_{\text{curv}}$$
 
 Fix-points $\phi \in \mathcal_{R}_n$ resist further transformation, encoding semantic inertia.
 
@@ -30,7 +30,7 @@ $$V(H) = \mu^2 H^\dagger H + \lambda (H^\dagger H)^2$$
 
 Recursive reinterpretation:
 
-$$\mathcal_{H} := \frac_{\delta \mathcal{R}_n}{\delta \mathscr_{S}}$$
+$$\mathcal{H} := \frac{\delta \mathcal{R}_n}{\delta \mathscr{S}}$$
 
 Where $\mathscr_{S}$ denotes semantic symmetry. Nonzero variation implies natural symmetry breaking in recursion.
 
@@ -55,7 +55,7 @@ Photon is massless due to global recursion alignment. $W^\pm$, $Z^0$ acquire mas
 
 In SPH recursion, mass emerges when recursive curvature becomes **locked** into specific phase configurations:
 
-$$m_{\text_{gauge}} = \left\| \nabla_{\text_{phase}} \mathcal_{R}_n \right\|_{\text_{lock}}$$
+$$m_{\text{gauge}} = \left\| \nabla_{\text{phase}} \mathcal{R}_n \right\|_{\text{lock}}$$
 
 Where the gradient measures resistance to phase transformation in recursive space.
 
@@ -63,11 +63,11 @@ Where the gradient measures resistance to phase transformation in recursive spac
 
 Standard Yukawa term:
 
-$$\mathcal_{L}_Y = -y_f \bar_{\psi}_L H \psi_R + \text_{h.c.}$$
+$$\mathcal{L}_Y = -y_f \bar{\psi}_L H \psi_R + \text{h.c.}$$
 
 Recursive fermion mass:
 
-$$m_f := \left\| \Psi_L \oplus \Psi_R \right\|_{\text_{lock-in}}$$
+$$m_f := \left\| \Psi_L \oplus \Psi_R \right\|_{\text{lock-in}}$$
 
 Where:
 - $\Psi_L, \Psi_R$: complementary recursive channels
