@@ -65,10 +65,10 @@ This tensor measures the **resistance of structure to further recursion**, and i
 
 In classical GR:
 
-$$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac_{8\pi G}{c^4} T_{\mu\nu}$$
+$$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
 Where:
-- $G_{\mu\nu} := R_{\mu\nu} - \frac_{1}{2} R g_{\mu\nu}$ is the Einstein tensor  
+- $G_{\mu\nu} := R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu}$ is the Einstein tensor  
 - $T_{\mu\nu}$ is the energy-momentum tensor  
 - $\Lambda$ is the cosmological constant  
 
@@ -291,7 +291,7 @@ This tensor encodes:
 Classically:
 
 \[
-G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac_{8\pi G}{c^4} T_{\mu\nu}
+G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
 \]
 
 In SPH:
