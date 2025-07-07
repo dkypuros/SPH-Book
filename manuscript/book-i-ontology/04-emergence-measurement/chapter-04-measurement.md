@@ -49,13 +49,13 @@ Time is no longer external — it is the structural index of recursion itself.
 An observation is not merely detection — it is the semantic **compression of curvature** into a stable fix-point.
 
 Let:
-- $\phi \in \text_{Fix}(\mathcal_{R}_n)$: a curvature attractor  
-- $\pi_n: \text_{Fix}(\mathcal_{R}_n) \to \mathscr_{T}_n$: semantic projection  
+- $\phi \in \text{Fix}(\mathcal_{R}_n)$: a curvature attractor  
+- $\pi_n: \text{Fix}(\mathcal_{R}_n) \to \mathscr_{T}_n$: semantic projection  
 - $\mathcal_{O}_n := \mathcal_{S}_n \circ \pi_n^{-1}$: the observer loop
 
 Then:
 
-$$\text_{Measurement} := \mathcal_{O}_n(\phi)$$
+$$\text{Measurement} := \mathcal_{O}_n(\phi)$$
 
 This means:
 - An observation is the recursive projection and interpretation of a curvature fix-point  
@@ -68,7 +68,7 @@ This means:
 
 We define a curvature collapse condition:
 
-$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \mathcal_{R}_{n+k} \to \text_{Fix}_i$$
+$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \mathcal_{R}_{n+k} \to \text{Fix}_i$$
 
 Where:
 - $\partial(\mathcal_{R}_n)$: recursive tension (feedback from structure)  
@@ -88,7 +88,7 @@ The collapse mechanism replaces the mysterious "wavefunction collapse" with a co
 
 Observation is a **recursive closure**:
 
-$$\text_{SPH} \xrightarrow_{\text{Recursion}} \mathcal_{R}_n \xrightarrow_{\text{Fixation}} \phi_i \xrightarrow_{\text{Semantic}} \mathcal_{O}_n(\phi_i) \xrightarrow_{\text{Feedback}} \mathcal_{R}_{n+1}$$
+$$\text{SPH} \xrightarrow{\text{Recursion}} \mathcal_{R}_n \xrightarrow{\text{Fixation}} \phi_i \xrightarrow{\text{Semantic}} \mathcal_{O}_n(\phi_i) \xrightarrow{\text{Feedback}} \mathcal_{R}_{n+1}$$
 
 This loop defines:
 - The origin of observation  
@@ -116,7 +116,7 @@ The observer is an embedded recursive structure that projects, interprets, and c
 
 The irreversibility of measurement arises from the asymmetric nature of recursive fixation:
 
-$$\text_{Fix}(\mathcal_{R}_n) \not\rightarrow \mathcal_{R}_{n-1}$$
+$$\text{Fix}(\mathcal_{R}_n) \not\rightarrow \mathcal_{R}_{n-1}$$
 
 Once a fix-point is stabilized, the recursive path that led to it cannot be reversed. This is because:
 
@@ -149,7 +149,7 @@ Where $\phi_i$ are potential fix-points in $\mathcal_{R}_n$ and $c_i$ are recurs
 
 Measurement occurs when:
 
-$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \exists i: \phi_i \text_{ becomes dominant}$$
+$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \exists i: \phi_i \text{ becomes dominant}$$
 
 The "collapse" is the natural stabilization of one fix-point when recursive tension exceeds the threshold.
 
@@ -163,7 +163,7 @@ The observer effect is explained by the measurement loop: the act of observation
 
 Since time is recursion depth, causality emerges naturally:
 
-$$\text_{Cause at } n \Rightarrow \text_{Effect at } n+k \quad (k > 0)$$
+$$\text{Cause at } n \Rightarrow \text{Effect at } n+k \quad (k > 0)$$
 
 This provides a foundation for:
 - **Temporal ordering**: Events at deeper recursion levels come "after" those at shallower levels
@@ -197,13 +197,13 @@ Measurement is not applied to the system — it is **the system becoming aware o
 $$\mathcal_{R}_n := F(\mathcal_{R}_{n-1}) + \partial(\mathcal_{R}_{n-1})$$
 
 **Time as Recursion Depth:**
-$$t = n \in \mathbb_{N}$$
+$$t = n \in \mathbb{N}$$
 
 **Measurement Operator:**
 $$\mathcal_{M}_n := \mathcal_{O}_n \circ \pi_n: \mathcal_{R}_n \to \mathscr_{T}_n$$
 
 **Collapse Condition:**
-$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \mathcal_{R}_{n+k} \to \text_{Fix}_i$$
+$$\partial(\mathcal_{R}_n) > \epsilon \Rightarrow \mathcal_{R}_{n+k} \to \text{Fix}_i$$
 
 **Observer Loop:**
 $$\mathcal_{O}_n := \mathcal_{S}_n \circ \pi_n^{-1}$$
@@ -213,8 +213,8 @@ $$\mathcal_{O}_n := \mathcal_{S}_n \circ \pi_n^{-1}$$
 The evolution of the recursive field under measurement is governed by:
 
 $$\mathcal_{R}_{n+1} = \begin_{cases}
-F(\mathcal_{R}_n) + \partial(\mathcal_{R}_n) & \text_{if } \partial(\mathcal_{R}_n) \leq \epsilon \\
-\text_{Fix}_i + \delta(\mathcal_{O}_n) & \text_{if } \partial(\mathcal_{R}_n) > \epsilon
+F(\mathcal_{R}_n) + \partial(\mathcal_{R}_n) & \text{if } \partial(\mathcal_{R}_n) \leq \epsilon \\
+\text{Fix}_i + \delta(\mathcal_{O}_n) & \text{if } \partial(\mathcal_{R}_n) > \epsilon
 \end_{cases}$$
 
 Where $\delta(\mathcal_{O}_n)$ represents the observer feedback into the field.
